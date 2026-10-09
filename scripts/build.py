@@ -54,7 +54,6 @@ def render_section(section):
     output.append('</div></section>')
     return '\n'.join(output)
 
-nav = ''.join(f'<a href="{esc(item["href"])}">{esc(item["label"])}</a>' for item in data['navigation'])
 social = ''.join(f'<a href="{esc(item["href"])}" aria-label="{label}">{item["svg"]}</a>' for item,label in zip(data['social'],['Instagram','Pinterest','TikTok']))
 sections = {s['id']:render_section(s) for s in data['sections']}
 strip = ''.join(f'<img src="assets/images/{name}" alt="Availeth Photo Co portrait photography" decoding="async">' for name in data['instagram'])
@@ -70,21 +69,14 @@ page = f'''<!doctype html>
 <link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="stylesheet" href="assets/layout.css">
-<script src="assets/site.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to shop</a>
-<div class="mobile-bar">
-<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu"><span class="hamburger" aria-hidden="true"></span><span>menu</span></button>
-<a class="inquire" href="https://availethphoto.com/contact">Inquire <span aria-hidden="true">→</span></a>
-</div>
 <header class="masthead">
 <p class="tagline">underwater<br>photographer</p>
 <a class="header-brand" href="./"><span class="wordmark">SALTY BABE</span><span class="photo-co">PHOTO CO</span></a>
 <div class="social-links">{social}</div>
 </header>
-<nav class="desktop-nav" aria-label="Main navigation"><div>{nav}</div></nav>
-<nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>{nav}</nav>
 <main id="main">
 <section class="hero" aria-label="Shop and collection">
 <img class="hero-photo" src="assets/images/group_8_4.png" alt="Snorkeler swimming with sharks in clear blue ocean water" fetchpriority="high">

@@ -9,11 +9,11 @@ Editable recreation of [availethphoto.com/salty-babe-shop](https://availethphoto
 
 ## Editing
 
-Text, image paths, links, and the original desktop/mobile positions live in `content/site.json`. Rebuild the HTML and position rules with `python3 scripts/build.py`. The masthead, hero, and navigation are in that script's template; their styles live in `assets/styles.css`. The only runtime JavaScript is the local mobile navigation controller in `assets/site.js`.
+Text, image paths, links, and the original desktop/mobile positions live in `content/site.json`. Rebuild the HTML and position rules with `python3 scripts/build.py`. The masthead and hero are in that script's template; their styles live in `assets/styles.css`. The header navigation has been removed on desktop and mobile; the page no longer loads runtime JavaScript.
 
 Photographs and decorative images are in `assets/images/`; all fonts are in `assets/fonts/`. No scripts, CSS, fonts, images, analytics, or embeds load from another host. A Content Security Policy enforces same-origin resources. Ordinary navigation and product links retain their original destinations.
 
-Run `python3 scripts/check.py` to verify local resource paths. For visual changes, review the page at 1510px and 390px, including the gallery, footer, mobile navigation, and overflow. The initial recreation was checked in the Codex app browser at both sizes.
+Run `python3 scripts/check.py` to verify local resource paths. For visual changes, review the page at 1510px and 390px, including the header, gallery, footer, and overflow. The initial recreation was checked in the Codex app browser at both sizes.
 
 ## Publishing
 
