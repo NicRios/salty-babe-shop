@@ -44,6 +44,9 @@ def render_section(section):
             if node['href'] and 'darkroom' in node['href']:
                 label += ' — view print ' + node['href'].rsplit('/',1)[-1]
             inner = f'<img src="{esc(node["src"])}" alt="{esc(label)}" decoding="async">'
+        elif node['kind'] == 'placeholder':
+            attrs += f' role="img" aria-label="{esc(node["alt"])}"'
+            inner = f'<span aria-hidden="true">{esc(node["text"])}</span>'
         elif node['kind'] == 'box':
             attrs += ' aria-hidden="true"'
             css.append(f'#{node["id"]}{{background:{node["background"]};border:{node["border"]};pointer-events:none}}')
