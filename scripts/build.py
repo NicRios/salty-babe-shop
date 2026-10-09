@@ -59,7 +59,7 @@ def render_section(section):
 nav = ''.join(f'<a href="{esc(item["href"])}">{esc(item["label"])}</a>' for item in data['navigation'])
 social = ''.join(f'<a href="{esc(item["href"])}" aria-label="{label}">{item["svg"]}</a>' for item,label in zip(data['social'],['Instagram','Pinterest','TikTok']))
 sections = {s['id']:render_section(s) for s in data['sections']}
-strip = ''.join(f'<img src="assets/images/{name}" alt="Availeth Photo Co portrait photography" decoding="async">' for name in data['instagram'])
+strip = ''.join(f'<div class="photo-placeholder" role="img" aria-label="Image placeholder {number}"><span aria-hidden="true">Image {number:02}</span></div>' for number in range(1, data['footerPhotoCount'] + 1))
 page = f'''<!doctype html>
 <html lang="en">
 <head>
@@ -92,7 +92,7 @@ page = f'''<!doctype html>
 {sections['print-shop-gallery-to-darkroom']}
 {sections['saltybabe-contact']}
 <div class="social-spacer"></div>
-<div class="instagram-strip" aria-label="Photography collection"><div>{strip}</div></div>
+<div class="instagram-strip" role="group" aria-label="Photo placeholders"><div>{strip}</div></div>
 </main>
 <footer>{sections['saltybabe-footer-1']}</footer>
 </body>
