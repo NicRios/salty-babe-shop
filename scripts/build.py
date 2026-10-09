@@ -62,7 +62,7 @@ def render_section(section):
 nav = ''.join(f'<a href="{esc(item["href"])}">{esc(item["label"])}</a>' for item in data['navigation'])
 social = ''.join(f'<a href="{esc(item["href"])}" aria-label="{label}">{item["svg"]}</a>' for item,label in zip(data['social'],['Instagram','Pinterest','TikTok']))
 sections = {s['id']:render_section(s) for s in data['sections']}
-strip = ''.join(f'<img src="{esc(photo["src"])}" alt="{esc(photo["alt"])}" decoding="async">' for photo in data['footerPhotos'])
+strip = ''.join(f'<div class="gallery-photo"><img src="{esc(photo["src"])}" alt="{esc(photo["alt"])}" decoding="async"></div>' for photo in data['footerPhotos'])
 page = f'''<!doctype html>
 <html lang="en">
 <head>
