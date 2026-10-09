@@ -27,6 +27,7 @@
  #preset-packages,#print-shop-gallery-to-darkroom{scroll-margin-top:48px}
 }
 
+.instagram-strip img:is(:nth-child(1),:nth-child(2),:nth-child(6)){object-position:50% 70%}
 @media(max-width:1024px){
  .instagram-strip>div{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(2px,.625vw,5px)}
 }
