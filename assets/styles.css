@@ -32,3 +32,9 @@
 @media(max-width:1024px){
  .instagram-strip>div{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(2px,.625vw,5px)}
 }
+
+/* Keep compact-section type, artwork and spacing on the same bounded scale. */
+@media(max-width:767px){
+ #saltybabe-contact .canvas,
+ #saltybabe-footer-1 .canvas{max-width:390px}
+}
