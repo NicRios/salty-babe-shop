@@ -2003,7 +2003,7 @@
         {
           "id": "saltybabe-footer-1-13",
           "href": null,
-          "text": "Portrait",
+          "text": "",
           "desktop": {
             "x": 90,
             "y": 55,
@@ -2026,8 +2026,9 @@
             "textTransform": "none",
             "color": "rgb(0, 0, 0)"
           },
-          "kind": "placeholder",
-          "alt": "Portrait placeholder"
+          "kind": "image",
+          "src": "assets/images/img_9063_1.png",
+          "alt": "Underwater photographer with her camera"
         },
         {
           "id": "saltybabe-footer-1-14",
