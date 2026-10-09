@@ -78,6 +78,13 @@ page = f'''<!doctype html>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to shop</a>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+<details class="mobile-menu">
+<summary aria-label="Menu"><svg class="menu-icon" viewBox="0 0 50 32" aria-hidden="true"><path d="M0 1h50M0 16h50M0 31h50"></path></svg><span class="menu-label" aria-hidden="true">menu</span></summary>
+<div class="mobile-menu-links">{nav}</div>
+</details>
+<a class="mobile-inquire" href="{esc(data['navigation'][-1]['href'])}">Inquire<svg viewBox="0 0 32 20" aria-hidden="true"><path d="M1 10h29M22 2l8 8-8 8"></path></svg></a>
+</nav>
 <header class="masthead">
 <p class="tagline">underwater<br>photographer</p>
 <a class="header-brand" href="./"><span class="wordmark">SALTY BABE</span><span class="photo-co">PHOTO CO</span></a>
@@ -98,6 +105,7 @@ page = f'''<!doctype html>
 <div class="instagram-strip" role="group" aria-label="Photography collection"><div>{strip}</div></div>
 </main>
 <footer>{sections['saltybabe-footer-1']}</footer>
+<script src="assets/mobile-menu.js" defer></script>
 </body>
 </html>
 '''

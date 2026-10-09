@@ -38,3 +38,29 @@
  #saltybabe-contact .canvas,
  #saltybabe-footer-1 .canvas{max-width:390px}
 }
+
+/* The compact header follows the mobile reference; wider layouts stay unchanged. */
+.mobile-nav{display:none}
+@media(max-width:767px){
+ html{scrollbar-width:none}
+ .mobile-nav{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;height:10.547945vw;min-height:40px;padding:0 3.972603vw 0 2.876712vw;background:#fff;border-bottom:1px solid #c7c7c7;color:#000}
+ .mobile-menu{height:100%}
+ .mobile-menu summary{display:flex;align-items:center;gap:2.876712vw;height:100%;cursor:pointer;list-style:none}
+ .mobile-menu summary::-webkit-details-marker{display:none}
+ .mobile-menu summary:focus-visible{outline:2px solid #52645c;outline-offset:4px}
+ .menu-icon{display:block;flex:none;width:6.712329vw;height:4.383562vw;fill:none;stroke:currentColor;stroke-width:2}
+ .menu-label{font:15.625vw/1 'Wonder Garden';transform:translateY(-1.55vw)}
+ .mobile-inquire{display:flex;align-items:center;gap:1.917808vw;min-height:40px;font:2.876712vw/1 'Josefin Sans';letter-spacing:.821918vw;text-transform:uppercase;white-space:nowrap}
+ .mobile-inquire svg{width:4.109589vw;height:2.739726vw;fill:none;stroke:currentColor;stroke-width:1.8}
+ .mobile-menu-links{position:absolute;left:0;right:0;top:100%;padding:16px 24px 20px;display:grid;gap:4px;background:#fff;border-bottom:1px solid #c7c7c7;box-shadow:0 10px 16px #0000000d}
+ .mobile-menu-links a{display:flex;align-items:center;min-height:44px;font:13px/1.4 'Josefin Sans';letter-spacing:2px;text-transform:uppercase}
+ .site-nav{display:none}
+ .masthead{height:39.863014vw}
+ .wordmark{font-size:15.9375vw}
+ .photo-co{top:20.9vw;font-size:3.5625vw}
+ .hero-photo{height:112.7%}
+ .hero h1{top:32.65%;font-size:11.5vw}
+ .hero>p{top:43.05%}
+ .dive-arrow{top:48.2%}
+ #preset-packages,#print-shop-gallery-to-darkroom{scroll-margin-top:max(40px,10.547945vw)}
+}
