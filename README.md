@@ -13,6 +13,8 @@ Text, image paths, links, and the original desktop/mobile positions live in `con
 
 Photographs and decorative images are in `assets/images/`; all fonts are in `assets/fonts/`. No scripts, CSS, fonts, images, analytics, or embeds load from another host. A Content Security Policy enforces same-origin resources. Ordinary navigation and product links retain their original destinations.
 
+The contact section and footer scale together within their own canvases: up to 390px wide in the stacked layout (through 767px viewport width), then up to the existing 1200px desktop canvas. This caps their type, artwork, controls and spacing without changing the navigation or gallery.
+
 Run `python3 scripts/check.py` to verify local resource paths. For visual changes, review the page at 1510px and 390px, including the header, gallery, footer, and overflow. The initial recreation was checked in the Codex app browser at both sizes.
 
 ## Publishing
