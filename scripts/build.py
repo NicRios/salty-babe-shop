@@ -56,6 +56,7 @@ def render_section(section):
     output.append('</div></section>')
     return '\n'.join(output)
 
+nav = ''.join(f'<a href="{esc(item["href"])}">{esc(item["label"])}</a>' for item in data['navigation'])
 social = ''.join(f'<a href="{esc(item["href"])}" aria-label="{label}">{item["svg"]}</a>' for item,label in zip(data['social'],['Instagram','Pinterest','TikTok']))
 sections = {s['id']:render_section(s) for s in data['sections']}
 strip = ''.join(f'<img src="assets/images/{name}" alt="Availeth Photo Co portrait photography" decoding="async">' for name in data['instagram'])
@@ -79,6 +80,7 @@ page = f'''<!doctype html>
 <a class="header-brand" href="./"><span class="wordmark">SALTY BABE</span><span class="photo-co">PHOTO CO</span></a>
 <div class="social-links">{social}</div>
 </header>
+<nav class="site-nav" aria-label="Main navigation"><div>{nav}</div></nav>
 <main id="main">
 <section class="hero" aria-label="Shop and collection">
 <img class="hero-photo" src="assets/images/group_8_4.png" alt="Snorkeler swimming with sharks in clear blue ocean water" fetchpriority="high">

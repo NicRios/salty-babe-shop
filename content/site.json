@@ -4,31 +4,19 @@
   "navigation": [
     {
       "label": "Home",
-      "href": "https://availethphoto.com/"
+      "href": "./"
     },
     {
-      "label": "About",
-      "href": "https://availethphoto.com/about"
+      "label": "Photo Presets",
+      "href": "#preset-packages"
     },
     {
-      "label": "Portfolio",
-      "href": "https://availethphoto.com/portfolio"
-    },
-    {
-      "label": "Details",
-      "href": "https://availethphoto.com/details"
-    },
-    {
-      "label": "Travel",
-      "href": "https://availethphoto.com/travel"
+      "label": "Print Shop",
+      "href": "#print-shop-gallery-to-darkroom"
     },
     {
       "label": "Inquire",
       "href": "https://availethphoto.com/contact"
-    },
-    {
-      "label": "Shop",
-      "href": "./"
     }
   ],
   "social": [

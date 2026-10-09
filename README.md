@@ -9,7 +9,7 @@ Editable recreation of [availethphoto.com/salty-babe-shop](https://availethphoto
 
 ## Editing
 
-Text, image paths, links, and the original desktop/mobile positions live in `content/site.json`. Rebuild the HTML and position rules with `python3 scripts/build.py`. The masthead and hero are in that script's template; their styles live in `assets/styles.css`. The header navigation has been removed on desktop and mobile; the page no longer loads runtime JavaScript.
+Text, image paths, links, and the original desktop/mobile positions live in `content/site.json`. Rebuild the HTML and position rules with `python3 scripts/build.py`. The masthead, navigation and hero are in that script's template; their styles live in `assets/styles.css`. Navigation includes Home, Photo Presets, Print Shop and Inquire on desktop and mobile. Presets and prints jump to their page sections; Inquire retains the original contact destination. The page loads no runtime JavaScript.
 
 Photographs and decorative images are in `assets/images/`; all fonts are in `assets/fonts/`. No scripts, CSS, fonts, images, analytics, or embeds load from another host. A Content Security Policy enforces same-origin resources. Ordinary navigation and product links retain their original destinations.
 

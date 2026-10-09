@@ -16,3 +16,13 @@
 #saltybabe-contact{position:relative}
 #saltybabe-contact::before{content:'';position:absolute;inset:0 0 auto;height:1px;background:#c7c7c7}
 #saltybabe-contact-3{display:none}
+.site-nav{position:sticky;top:0;z-index:20;height:60px;background:#fff;border-bottom:1px solid #c7c7c7}
+.site-nav>div{max-width:960px;height:100%;margin:auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.site-nav a{display:flex;align-items:center;min-height:44px;font:11px/1.4 'Josefin Sans';letter-spacing:3.3px;text-transform:uppercase;white-space:nowrap}
+#preset-packages,#print-shop-gallery-to-darkroom{scroll-margin-top:60px}
+@media(max-width:767px){
+ .site-nav{height:48px}
+ .site-nav>div{padding:0 14px;gap:12px}
+ .site-nav a{font-size:10px;letter-spacing:1px}
+ #preset-packages,#print-shop-gallery-to-darkroom{scroll-margin-top:48px}
+}
