@@ -2092,5 +2092,30 @@
       ]
     }
   ],
-  "footerPhotoCount": 9
+  "footerPhotos": [
+    {
+      "src": "assets/images/footer-beach-portrait.webp",
+      "alt": "Woman in a blue swimsuit stretching on a beach"
+    },
+    {
+      "src": "assets/images/footer-ocean-couple.webp",
+      "alt": "Couple embracing in turquoise ocean water"
+    },
+    {
+      "src": "assets/images/footer-sea-lion.webp",
+      "alt": "Sea lion swimming beneath the ocean surface"
+    },
+    {
+      "src": "assets/images/footer-rays.webp",
+      "alt": "A school of rays swimming underwater"
+    },
+    {
+      "src": "assets/images/footer-freediver.webp",
+      "alt": "Freediver stretching underwater with long white fins"
+    },
+    {
+      "src": "assets/images/footer-coastal-portraits.webp",
+      "alt": "Two women seated in a rocky coastal alcove"
+    }
+  ]
 }
