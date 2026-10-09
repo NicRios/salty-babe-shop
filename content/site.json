@@ -1,0 +1,2119 @@
+{
+  "source": "https://availethphoto.com/salty-babe-shop",
+  "captured": "2026-10-08",
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "https://availethphoto.com/"
+    },
+    {
+      "label": "About",
+      "href": "https://availethphoto.com/about"
+    },
+    {
+      "label": "Portfolio",
+      "href": "https://availethphoto.com/portfolio"
+    },
+    {
+      "label": "Details",
+      "href": "https://availethphoto.com/details"
+    },
+    {
+      "label": "Travel",
+      "href": "https://availethphoto.com/travel"
+    },
+    {
+      "label": "Inquire",
+      "href": "https://availethphoto.com/contact"
+    },
+    {
+      "label": "Shop",
+      "href": "./"
+    }
+  ],
+  "social": [
+    {
+      "href": "https://www.instagram.com/availeth.photo.co",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path d=\"M338,54.63H174c-62.72,0-114,51.32-114,114V343.33c0,62.72,51.32,114,114,114H338c62.72,0,114-51.32,114-114V168.67C452,105.94,400.68,54.63,338,54.63Zm83.91,288.71A84.24,84.24,0,0,1,338,427.24H174a84.24,84.24,0,0,1-83.91-83.91V168.67A84.24,84.24,0,0,1,174,84.76H338a84.24,84.24,0,0,1,83.91,83.91Z\"></path><path d=\"M255.77,148.18A107.94,107.94,0,1,0,363.71,256.13,107.94,107.94,0,0,0,255.77,148.18Zm-.52,178.71a70.68,70.68,0,1,1,70.68-70.68A70.68,70.68,0,0,1,255.25,326.9Z\"></path><circle cx=\"365.44\" cy=\"146.5\" r=\"25.56\"></circle></svg>"
+    },
+    {
+      "href": "https://www.pinterest.com/kerstinjenkins_14/",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path d=\"M264.59,47c-114.38,0-173,82.12-173,149.57,0,41.06,14.67,79.19,49.86,90.92,5.86,2.93,11.73,0,11.73-5.87,0-2.93,2.93-14.66,5.87-20.53s0-8.79-2.94-14.66c-8.8-11.73-14.66-26.4-14.66-46.92,0-61.59,46.92-114.38,120.24-114.38,64.53,0,99.72,41.06,99.72,93.85,0,70.38-32.26,129-76.25,129-26.4,0-44-20.53-38.13-46.93,5.87-29.32,20.53-64.52,20.53-85s-11.73-35.19-32.26-35.19c-26.4,0-46.93,26.39-46.93,61.59,0,23.46,8.8,38.12,8.8,38.12S167.8,354.94,164.87,375.47c-8.8,38.13,0,88,0,90.92s2.93,2.93,5.87,0,32.26-41.06,44-79.19c2.93-11.73,17.6-67.45,17.6-67.45,8.79,14.66,32.26,29.33,58.65,29.33,76.25,0,129-70.39,129-164.24C420,114.45,358.44,47,264.59,47Z\"></path></svg>"
+    },
+    {
+      "href": "https://www.tiktok.com/@truth_kerts",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path d=\"M433.29,150.28c-13.21-1.22-34.28-5.4-52.61-20.21a164.93,164.93,0,0,1-27.47-32.68l-.64-1-.62-1-.14-.21c-.69-1.12-1.35-2.23-2-3.32-2.62-4.5-4.75-8.68-5.29-9.73-1.91-3.82-3.48-7.31-4.76-10.37-.34-.93-.67-1.89-1-2.92A54.43,54.43,0,0,1,336.56,53l-70.32.4.84,277.68c0,14.9-12.19,40-34.61,50.87-16.22,7.88-38.32,7.19-50.67.72l-.09-.05-.06,0,0,0a74,74,0,0,1-8.89-5.62,62.36,62.36,0,0,1-9.41-8.8c-3.5-4-10.71-12.57-13.11-25.7-1.89-10.33.28-18.48,1.34-23.35.85-3.87,5.85-24.89,26.59-37.94,21.7-13.65,43.91-8.06,47.54-7.08.28-17.86,1.05-64.79,1.15-70.41-10.74-1.81-46-6.37-82.41,14-39.25,21.89-53.34,57.85-57.12,68a131,131,0,0,0-8.2,49.21,122.67,122.67,0,0,0,37.24,86.72,148.78,148.78,0,0,0,21,16.79q2.58,2,5.41,3.72a69.53,69.53,0,0,0,14.59,6.79c5.4,2.32,62.76,25.78,118.78-8.39,56.58-34.5,61.55-97.13,61.9-102.79V189.44A150.19,150.19,0,0,0,434.54,220C434.43,213.39,433.64,166.92,433.29,150.28Z\"></path></svg>"
+    }
+  ],
+  "sections": [
+    {
+      "id": "preset-packages",
+      "height": 810,
+      "mobileHeight": 1413.75,
+      "nodes": [
+        {
+          "id": "preset-packages-0",
+          "href": null,
+          "text": "OCEAN GLOW PRESET PACK",
+          "desktop": {
+            "x": 132,
+            "y": 216,
+            "width": 410,
+            "height": 32,
+            "font": "22px / 30.8px \"Josefin Sans\"",
+            "letterSpacing": "4.4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(25, 25, 26)"
+          },
+          "mobile": {
+            "x": 28.03125,
+            "y": 235.21875,
+            "width": 335.15625,
+            "height": 73.125,
+            "font": "20px / 28px \"Josefin Sans\"",
+            "letterSpacing": "4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(25, 25, 26)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "preset-packages-1",
+          "href": null,
+          "text": "SUN & SAND PRESET PACK",
+          "desktop": {
+            "x": 658,
+            "y": 216,
+            "width": 410,
+            "height": 32,
+            "font": "22px / 30.8px \"Josefin Sans\"",
+            "letterSpacing": "4.4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(25, 25, 26)"
+          },
+          "mobile": {
+            "x": 28.03125,
+            "y": 838.5,
+            "width": 335.15625,
+            "height": 73.125,
+            "font": "20px / 28px \"Josefin Sans\"",
+            "letterSpacing": "4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(25, 25, 26)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "preset-packages-2",
+          "href": "https://availethphoto.com/shop-product-ocean-glow",
+          "text": "SHOP OCEAN GLOW",
+          "desktop": {
+            "x": 132,
+            "y": 707,
+            "width": 410,
+            "height": 32,
+            "font": "20px / 28px \"Josefin Sans\"",
+            "letterSpacing": "4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(144, 150, 131)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 666.65625,
+            "width": 335.15625,
+            "height": 31.6875,
+            "font": "18px / 25.2px \"Josefin Sans\"",
+            "letterSpacing": "3.6px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(144, 150, 131)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "preset-packages-3",
+          "href": "https://availethphoto.com/sun-and-sand",
+          "text": "SHOP SUN & SAND",
+          "desktop": {
+            "x": 658,
+            "y": 707,
+            "width": 410,
+            "height": 32,
+            "font": "20px / 28px \"Josefin Sans\"",
+            "letterSpacing": "4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(144, 150, 131)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 1296.75,
+            "width": 335.15625,
+            "height": 34.125,
+            "font": "18px / 25.2px \"Josefin Sans\"",
+            "letterSpacing": "3.6px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(144, 150, 131)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "preset-packages-4",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": 132,
+            "y": 279,
+            "width": 410,
+            "height": 390,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 18.28125,
+            "y": 318.09375,
+            "width": 354.65625,
+            "height": 316.875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/ocean_glow_preset_pack_product_photo_1_1.png",
+          "alt": "Ocean Glow preset pack: before and after sea turtle photographs"
+        },
+        {
+          "id": "preset-packages-5",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": 658,
+            "y": 279,
+            "width": 410,
+            "height": 390,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 18.28125,
+            "y": 928.6875,
+            "width": 354.65625,
+            "height": 316.875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/salt_and_light_preset_pack_product_photo_6.png",
+          "alt": "Sun and Sand preset pack: before and after beach photographs"
+        },
+        {
+          "id": "preset-packages-6",
+          "href": "https://availethphoto.com/shop-product-ocean-glow",
+          "text": "",
+          "desktop": {
+            "x": 132,
+            "y": 696,
+            "width": 410,
+            "height": 54,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 15.84375,
+            "y": 656.90625,
+            "width": 354.65625,
+            "height": 51.1875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "box",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "1px solid rgb(144, 150, 131)"
+        },
+        {
+          "id": "preset-packages-7",
+          "href": "https://availethphoto.com/sun-and-sand",
+          "text": "",
+          "desktop": {
+            "x": 658,
+            "y": 696,
+            "width": 410,
+            "height": 54,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 18.28125,
+            "y": 1285.78125,
+            "width": 354.65625,
+            "height": 45.09375,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "box",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "1px solid rgb(144, 150, 131)"
+        },
+        {
+          "id": "preset-packages-8",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": 453,
+            "y": 6,
+            "width": 293,
+            "height": 178,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 79.21875,
+            "y": 0,
+            "width": 232.78125,
+            "height": 153.5625,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/podcast_announcement_curved_text_instagram_post_3_1.png",
+          "alt": "Photo presets"
+        }
+      ]
+    },
+    {
+      "id": "print-shop-gallery-to-darkroom",
+      "height": 5800,
+      "mobileHeight": 4204.6875,
+      "nodes": [
+        {
+          "id": "print-shop-gallery-to-darkroom-0",
+          "href": "https://saltybabe.darkroom.com/products/1577211",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 352,
+            "width": 359,
+            "height": 537,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 202.3125,
+            "y": 275.4375,
+            "width": 164.53125,
+            "height": 244.96875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dji_0421_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-1",
+          "href": "https://saltybabe.darkroom.com/products/1612981",
+          "text": "",
+          "desktop": {
+            "x": 47,
+            "y": 352,
+            "width": 359,
+            "height": 537,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 275.4375,
+            "width": 164.53125,
+            "height": 244.96875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc01673_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-2",
+          "href": "https://saltybabe.darkroom.com/products/1577217",
+          "text": "",
+          "desktop": {
+            "x": 794,
+            "y": 352,
+            "width": 359,
+            "height": 537,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 202.3125,
+            "y": 532.59375,
+            "width": 164.53125,
+            "height": 244.96875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/img_8247_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-3",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": 435,
+            "y": 107,
+            "width": 328,
+            "height": 233,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 58.5,
+            "y": 0,
+            "width": 273,
+            "height": 195,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/podcast_announcement_curved_text_instagram_post_4_1.png",
+          "alt": "Fine art prints"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-4",
+          "href": "https://saltybabe.darkroom.com/products/1577228",
+          "text": "",
+          "desktop": {
+            "x": 47,
+            "y": 909,
+            "width": 359,
+            "height": 537,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 532.59375,
+            "width": 164.53125,
+            "height": 244.96875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/img_1311_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-5",
+          "href": "https://saltybabe.darkroom.com/products/1577221",
+          "text": "",
+          "desktop": {
+            "x": 794,
+            "y": 909,
+            "width": 359,
+            "height": 537,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 202.3125,
+            "y": 792.1875,
+            "width": 164.53125,
+            "height": 244.96875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc00866_1_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-6",
+          "href": "https://saltybabe.darkroom.com/products/1577219",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 909,
+            "width": 359,
+            "height": 537,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 792.1875,
+            "width": 164.53125,
+            "height": 244.96875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc03999.jpg",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-7",
+          "href": "https://saltybabe.darkroom.com/products/1577248",
+          "text": "",
+          "desktop": {
+            "x": 794,
+            "y": 1463,
+            "width": 359,
+            "height": 525,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 204.75,
+            "y": 1304.0625,
+            "width": 162.09375,
+            "height": 240.09375,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/494a7364_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-8",
+          "href": "https://saltybabe.darkroom.com/products/1577236",
+          "text": "",
+          "desktop": {
+            "x": 47,
+            "y": 1463,
+            "width": 359,
+            "height": 519,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 1059.09375,
+            "width": 164.53125,
+            "height": 244.96875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc08294.jpg",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-9",
+          "href": "https://saltybabe.darkroom.com/products/1577215",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 1717,
+            "width": 359,
+            "height": 238,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 202.3125,
+            "y": 1182.1875,
+            "width": 164.53125,
+            "height": 107.25,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/494a8586_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-10",
+          "href": "https://saltybabe.darkroom.com/products/1577247",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 1463,
+            "width": 359,
+            "height": 238,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 202.3125,
+            "y": 1059.09375,
+            "width": 164.53125,
+            "height": 107.25,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/kert8607_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-11",
+          "href": "https://saltybabe.darkroom.com/products/1577222",
+          "text": "",
+          "desktop": {
+            "x": 47,
+            "y": 2002,
+            "width": 357,
+            "height": 537,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 1319.90625,
+            "width": 164.53125,
+            "height": 251.0625,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc07989_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-12",
+          "href": "https://saltybabe.darkroom.com/products/1577213",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 1975,
+            "width": 359,
+            "height": 240,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 207.1875,
+            "y": 1555.125,
+            "width": 162.09375,
+            "height": 108.46875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc03699.jpg",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-13",
+          "href": "https://saltybabe.darkroom.com/products/1577204",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 2002,
+            "width": 357,
+            "height": 537,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 1588.03125,
+            "width": 164.53125,
+            "height": 253.5,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc05913_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-14",
+          "href": "https://saltybabe.darkroom.com/products/1577239",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 2235,
+            "width": 359,
+            "height": 542,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 204.75,
+            "y": 1814.71875,
+            "width": 162.09375,
+            "height": 240.09375,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc05847_6.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-15",
+          "href": "https://saltybabe.darkroom.com/products/1577245",
+          "text": "",
+          "desktop": {
+            "x": 47,
+            "y": 2563,
+            "width": 357,
+            "height": 248,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 1974.375,
+            "width": 164.53125,
+            "height": 108.46875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc00542_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-16",
+          "href": "https://saltybabe.darkroom.com/products/1612980",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 2555,
+            "width": 357,
+            "height": 235,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 204.75,
+            "y": 1683.09375,
+            "width": 162.09375,
+            "height": 119.4375,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc01638-edit_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-17",
+          "href": "https://saltybabe.darkroom.com/products/1577212",
+          "text": "",
+          "desktop": {
+            "x": 47,
+            "y": 2827,
+            "width": 357,
+            "height": 547,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 207.1875,
+            "y": 2073.09375,
+            "width": 162.09375,
+            "height": 238.875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc04450-enhanced-nr.jpg",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-18",
+          "href": "https://saltybabe.darkroom.com/products/1577246",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 2798,
+            "width": 359,
+            "height": 238,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 1854.9375,
+            "width": 164.53125,
+            "height": 108.46875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc05831_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-19",
+          "href": "https://saltybabe.darkroom.com/products/1577244",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 2811,
+            "width": 357,
+            "height": 532,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 2097.46875,
+            "width": 162.09375,
+            "height": 241.3125,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc00284-edit.jpg",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-20",
+          "href": "https://saltybabe.darkroom.com/products/1577210",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 3054,
+            "width": 359,
+            "height": 536,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 2358.28125,
+            "width": 164.53125,
+            "height": 253.5,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc02937_1_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-21",
+          "href": "https://saltybabe.darkroom.com/products/1577218",
+          "text": "",
+          "desktop": {
+            "x": 49,
+            "y": 4259,
+            "width": 357,
+            "height": 307,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 204.75,
+            "y": 2961.5625,
+            "width": 164.53125,
+            "height": 110.90625,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc07445_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-22",
+          "href": "https://saltybabe.darkroom.com/products/1577216",
+          "text": "",
+          "desktop": {
+            "x": 47,
+            "y": 3398,
+            "width": 357,
+            "height": 255,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 2633.71875,
+            "width": 164.53125,
+            "height": 110.90625,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc02972_1_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-23",
+          "href": "https://saltybabe.darkroom.com/products/1577686",
+          "text": "",
+          "desktop": {
+            "x": 49,
+            "y": 3678,
+            "width": 357,
+            "height": 554,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 204.75,
+            "y": 2447.25,
+            "width": 162.09375,
+            "height": 241.3125,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc08207_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-24",
+          "href": "https://saltybabe.darkroom.com/products/1577243",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 3360,
+            "width": 357,
+            "height": 230,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 2759.25,
+            "width": 164.53125,
+            "height": 109.6875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/kert8402_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-25",
+          "href": "https://saltybabe.darkroom.com/products/1577231",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 3607,
+            "width": 359,
+            "height": 527,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 207.1875,
+            "y": 2701.96875,
+            "width": 162.09375,
+            "height": 241.3125,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc09220.jpg",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-26",
+          "href": "https://saltybabe.darkroom.com/products/1577685",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 3607,
+            "width": 357,
+            "height": 237,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 207.1875,
+            "y": 2326.59375,
+            "width": 162.09375,
+            "height": 108.46875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc08278_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-27",
+          "href": "https://saltybabe.darkroom.com/products/1686430",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 4107,
+            "width": 357,
+            "height": 491,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 3010.3125,
+            "width": 164.53125,
+            "height": 251.0625,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/shark_print.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-28",
+          "href": "https://saltybabe.darkroom.com/products/1577234",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 4155,
+            "width": 359,
+            "height": 515,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 207.1875,
+            "y": 3083.4375,
+            "width": 162.09375,
+            "height": 243.75,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc04358-enhanced-nr.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-29",
+          "href": "https://saltybabe.darkroom.com/products/1577229",
+          "text": "",
+          "desktop": {
+            "x": 47,
+            "y": 4593,
+            "width": 357,
+            "height": 253,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 3279.65625,
+            "width": 162.09375,
+            "height": 108.46875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/darkroom_mountain.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-30",
+          "href": "https://saltybabe.darkroom.com/products/1577232",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 3867,
+            "width": 357,
+            "height": 225,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 2890.875,
+            "width": 162.09375,
+            "height": 106.03125,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/darkroom_image.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-31",
+          "href": "https://saltybabe.darkroom.com/products/1695252",
+          "text": "",
+          "desktop": {
+            "x": 421,
+            "y": 4944,
+            "width": 359,
+            "height": 514,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 207.1875,
+            "y": 3341.8125,
+            "width": 162.09375,
+            "height": 243.75,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc05258_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-32",
+          "href": "https://saltybabe.darkroom.com/products/1695248",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 4613,
+            "width": 357,
+            "height": 533,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 3651.375,
+            "width": 162.09375,
+            "height": 254.71875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc05714_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-33",
+          "href": "https://saltybabe.darkroom.com/products/1695250",
+          "text": "",
+          "desktop": {
+            "x": 423,
+            "y": 5474,
+            "width": 357,
+            "height": 232,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 3513.65625,
+            "width": 164.53125,
+            "height": 124.3125,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc04973_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-34",
+          "href": "https://saltybabe.darkroom.com/products/1695251",
+          "text": "",
+          "desktop": {
+            "x": 45,
+            "y": 4870,
+            "width": 359,
+            "height": 247,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 3399.09375,
+            "width": 164.53125,
+            "height": 104.8125,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc04971_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-35",
+          "href": "https://saltybabe.darkroom.com/products/1695234",
+          "text": "",
+          "desktop": {
+            "x": 45,
+            "y": 5146,
+            "width": 355,
+            "height": 556,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 207.1875,
+            "y": 3595.3125,
+            "width": 164.53125,
+            "height": 235.21875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc03474_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-36",
+          "href": "https://saltybabe.darkroom.com/products/1695249",
+          "text": "",
+          "desktop": {
+            "x": 420,
+            "y": 4686,
+            "width": 359,
+            "height": 245,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 207.1875,
+            "y": 3841.5,
+            "width": 162.09375,
+            "height": 113.34375,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/dsc05743_1.png",
+          "alt": "Ocean photography print"
+        },
+        {
+          "id": "print-shop-gallery-to-darkroom-37",
+          "href": "https://saltybabe.darkroom.com/products/1704856",
+          "text": "",
+          "desktop": {
+            "x": 796,
+            "y": 5166,
+            "width": 357,
+            "height": 540,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 25.59375,
+            "y": 3920.71875,
+            "width": 164.53125,
+            "height": 247.40625,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/5f7a9637_1.png",
+          "alt": "Ocean photography print"
+        }
+      ]
+    },
+    {
+      "id": "saltybabe-contact",
+      "height": 450,
+      "mobileHeight": 402.1875,
+      "nodes": [
+        {
+          "id": "saltybabe-contact-0",
+          "href": "https://availethphoto.com/contact",
+          "text": "INQUIRE ABOUT UNDERWATER PHOTO SESSIONS",
+          "desktop": {
+            "x": 361,
+            "y": 262,
+            "width": 478,
+            "height": 40,
+            "font": "18px / 25.2px \"Josefin Sans\"",
+            "letterSpacing": "5.4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(25, 25, 26)"
+          },
+          "mobile": {
+            "x": 20.71875,
+            "y": 225.46875,
+            "width": 348.5625,
+            "height": 47.53125,
+            "font": "12px / 16.8px \"Josefin Sans\"",
+            "letterSpacing": "3.6px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(25, 25, 26)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-contact-1",
+          "href": null,
+          "text": "magical",
+          "desktop": {
+            "x": 488,
+            "y": 125,
+            "width": 224,
+            "height": 99,
+            "font": "90px / 90px \"Wonder Garden\"",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "textTransform": "none",
+            "color": "rgb(25, 25, 26)"
+          },
+          "mobile": {
+            "x": 103.59375,
+            "y": 118.21875,
+            "width": 185.25,
+            "height": 71.90625,
+            "font": "55px / 66px \"Wonder Garden\"",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "textTransform": "none",
+            "color": "rgb(25, 25, 26)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-contact-2",
+          "href": "https://availethphoto.com/contact",
+          "text": "LET'S MAKE SOMETHING",
+          "desktop": {
+            "x": 446,
+            "y": 78,
+            "width": 308,
+            "height": 89,
+            "font": "45px / 45px \"Noir Et Blanc\"",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 76.78125,
+            "y": 70.6875,
+            "width": 238.875,
+            "height": 76.78125,
+            "font": "30px / 30px \"Noir Et Blanc\"",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-contact-3",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": -155,
+            "y": 0,
+            "width": 1510,
+            "height": 1,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": -18.28125,
+            "y": 0,
+            "width": 426.5625,
+            "height": 1.21875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "box",
+          "background": "rgb(199, 199, 199)",
+          "border": "0px solid rgb(0, 0, 0)"
+        },
+        {
+          "id": "saltybabe-contact-4",
+          "href": "https://availethphoto.com/contact",
+          "text": "CONTACT ME",
+          "desktop": {
+            "x": 487,
+            "y": 369,
+            "width": 227,
+            "height": 30,
+            "font": "16px / 22.4px \"Josefin Sans\"",
+            "letterSpacing": "3.2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(144, 150, 131)"
+          },
+          "mobile": {
+            "x": 67.03125,
+            "y": 324.1875,
+            "width": 255.9375,
+            "height": 26.8125,
+            "font": "14px / 19.6px \"Josefin Sans\"",
+            "letterSpacing": "2.8px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(144, 150, 131)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-contact-5",
+          "href": "https://availethphoto.com/salty-babe-contact-1",
+          "text": "",
+          "desktop": {
+            "x": 487,
+            "y": 348,
+            "width": 227,
+            "height": 60,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 88.96875,
+            "y": 305.90625,
+            "width": 214.5,
+            "height": 49.96875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "box",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "1px solid rgb(144, 150, 131)"
+        }
+      ]
+    },
+    {
+      "id": "saltybabe-footer-1",
+      "height": 416,
+      "mobileHeight": 1157.8125,
+      "nodes": [
+        {
+          "id": "saltybabe-footer-1-0",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": 852,
+            "y": 56,
+            "width": 262,
+            "height": 258,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 85.3125,
+            "y": 694.6875,
+            "width": 216.9375,
+            "height": 336.375,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "box",
+          "background": "rgb(144, 150, 131)",
+          "border": "3px solid rgb(0, 0, 0)"
+        },
+        {
+          "id": "saltybabe-footer-1-1",
+          "href": null,
+          "text": "\u24b8AVAILETH PHOTO CO",
+          "desktop": {
+            "x": 487,
+            "y": 355,
+            "width": 218,
+            "height": 19,
+            "font": "11px / 19.8px \"Josefin Sans\"",
+            "letterSpacing": "3.3px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 35.34375,
+            "y": 1105.40625,
+            "width": 320.53125,
+            "height": 29.25,
+            "font": "8px / 8px \"Josefin Sans\"",
+            "letterSpacing": "2.4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-2",
+          "href": "https://availethphoto.com/",
+          "text": "SALTY BABE",
+          "desktop": {
+            "x": 407,
+            "y": 73,
+            "width": 403,
+            "height": 70,
+            "font": "70px / 70px \"Noir Et Blanc\"",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 78,
+            "width": 343.6875,
+            "height": 49.96875,
+            "font": "50px / 50px \"Noir Et Blanc\"",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-3",
+          "href": null,
+          "text": "underwater photographer",
+          "desktop": {
+            "x": 435,
+            "y": 195,
+            "width": 323,
+            "height": 32,
+            "font": "20px / 24px \"Noir Et Blanc Italic\"",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "textTransform": "lowercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 23.15625,
+            "y": 310.78125,
+            "width": 343.6875,
+            "height": 21.9375,
+            "font": "15px / 15px \"Noir Et Blanc Italic\"",
+            "letterSpacing": "3px",
+            "textAlign": "center",
+            "textTransform": "lowercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-4",
+          "href": null,
+          "text": "PHOTO CO",
+          "desktop": {
+            "x": 472,
+            "y": 151,
+            "width": 246,
+            "height": 13,
+            "font": "600 13px / 15.6px \"Josefin Sans\"",
+            "letterSpacing": "5.2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 88.96875,
+            "y": 151.125,
+            "width": 212.0625,
+            "height": 18.28125,
+            "font": "600 11px / 11px \"Josefin Sans\"",
+            "letterSpacing": "4.4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-5",
+          "href": null,
+          "text": "TERMS & CONDITIONS",
+          "desktop": {
+            "x": 487,
+            "y": 370,
+            "width": 218,
+            "height": 15,
+            "font": "10px / 20px \"Josefin Sans\"",
+            "letterSpacing": "3px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 35.34375,
+            "y": 1120.03125,
+            "width": 320.53125,
+            "height": 12.1875,
+            "font": "8px / 8px \"Josefin Sans\"",
+            "letterSpacing": "2.4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-6",
+          "href": "https://availethphoto.com/travel",
+          "text": "TRAVEL",
+          "desktop": {
+            "x": 944,
+            "y": 234,
+            "width": 80,
+            "height": 16,
+            "font": "10px / 14px \"Josefin Sans\"",
+            "letterSpacing": "2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "mobile": {
+            "x": 37.78125,
+            "y": 914.0625,
+            "width": 314.4375,
+            "height": 30.46875,
+            "font": "11px / 27.5px \"Josefin Sans\"",
+            "letterSpacing": "3.3px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-7",
+          "href": "https://availethphoto.com/about",
+          "text": "ABOUT",
+          "desktop": {
+            "x": 927,
+            "y": 166,
+            "width": 113,
+            "height": 16,
+            "font": "10px / 14px \"Josefin Sans\"",
+            "letterSpacing": "2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "mobile": {
+            "x": 112.125,
+            "y": 809.25,
+            "width": 164.53125,
+            "height": 30.46875,
+            "font": "500 11px / 27.5px \"Josefin Sans\"",
+            "letterSpacing": "3.3px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-8",
+          "href": "https://availethphoto.com/details",
+          "text": "DETAILS",
+          "desktop": {
+            "x": 945,
+            "y": 212,
+            "width": 75,
+            "height": 15,
+            "font": "10px / 14px \"Josefin Sans\"",
+            "letterSpacing": "2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "mobile": {
+            "x": 130.40625,
+            "y": 878.71875,
+            "width": 123.09375,
+            "height": 30.46875,
+            "font": "500 11px / 27.5px \"Josefin Sans\"",
+            "letterSpacing": "3.3px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-9",
+          "href": "https://availethphoto.com/",
+          "text": "HOME",
+          "desktop": {
+            "x": 927,
+            "y": 143,
+            "width": 113,
+            "height": 16,
+            "font": "10px / 14px \"Josefin Sans\"",
+            "letterSpacing": "2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "mobile": {
+            "x": 112.125,
+            "y": 773.90625,
+            "width": 164.53125,
+            "height": 30.46875,
+            "font": "500 11px / 27.5px \"Josefin Sans\"",
+            "letterSpacing": "3.3px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-10",
+          "href": "https://availethphoto.com/portfolio",
+          "text": "PORTFOLIO",
+          "desktop": {
+            "x": 945,
+            "y": 190,
+            "width": 75,
+            "height": 15,
+            "font": "10px / 14px \"Josefin Sans\"",
+            "letterSpacing": "2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "mobile": {
+            "x": 132.84375,
+            "y": 843.375,
+            "width": 123.09375,
+            "height": 30.46875,
+            "font": "500 11px / 27.5px \"Josefin Sans\"",
+            "letterSpacing": "3.3px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-11",
+          "href": "https://availethphoto.com/contact",
+          "text": "INQUIRE",
+          "desktop": {
+            "x": 944,
+            "y": 258,
+            "width": 80,
+            "height": 16,
+            "font": "10px / 14px \"Josefin Sans\"",
+            "letterSpacing": "2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "mobile": {
+            "x": 37.78125,
+            "y": 948.1875,
+            "width": 314.4375,
+            "height": 30.46875,
+            "font": "11px / 27.5px \"Josefin Sans\"",
+            "letterSpacing": "3.3px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(242, 242, 238)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-12",
+          "href": null,
+          "text": "menu",
+          "desktop": {
+            "x": 919,
+            "y": 92,
+            "width": 128,
+            "height": 32,
+            "font": "33px / 39.6px \"Noir Et Blanc Italic\"",
+            "letterSpacing": "normal",
+            "textAlign": "center",
+            "textTransform": "lowercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          "mobile": {
+            "x": 118.21875,
+            "y": 720.28125,
+            "width": 149.90625,
+            "height": 34.125,
+            "font": "26px / 26px \"Noir Et Blanc Italic\"",
+            "letterSpacing": "0.52px",
+            "textAlign": "center",
+            "textTransform": "lowercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-13",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": 90,
+            "y": 55,
+            "width": 278,
+            "height": 259,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 58.5,
+            "y": 379.03125,
+            "width": 273,
+            "height": 264.46875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/img_9063_1.png",
+          "alt": "Underwater photographer with her camera"
+        },
+        {
+          "id": "saltybabe-footer-1-14",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": 87,
+            "y": 56,
+            "width": 283,
+            "height": 258,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 56.0625,
+            "y": 379.03125,
+            "width": 279.09375,
+            "height": 264.46875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "box",
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "3px solid rgb(0, 0, 0)"
+        },
+        {
+          "id": "saltybabe-footer-1-15",
+          "href": null,
+          "text": "",
+          "desktop": {
+            "x": 565,
+            "y": 258,
+            "width": 64,
+            "height": 58,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 149.90625,
+            "y": 195,
+            "width": 84.09375,
+            "height": 70.6875,
+            "font": "16px / 16px Times",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "image",
+          "src": "assets/images/adobestock_717302887_1.png",
+          "alt": "Starfish illustration"
+        }
+      ]
+    }
+  ],
+  "instagram": [
+    "494a6739.jpg",
+    "494a7119.jpg",
+    "494a8626.jpg",
+    "494a8433.jpg",
+    "494a7511.jpg",
+    "494a6791.jpg",
+    "494a8886.jpg",
+    "494a9447.jpg",
+    "494a9761.jpg"
+  ]
+}
