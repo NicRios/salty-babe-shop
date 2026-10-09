@@ -60,3 +60,13 @@ width = max(first['width'],second['width'])
 first = line('SALTY',serif,160,(width-first['width'])/4)
 second = line('BABE',serif,160,(width-second['width'])/3)
 export('salty-babe-stacked.svg','Salty Babe Photo Co — stacked logo',[first,second],13,31,17,8)
+
+# Keep the original wordmark geometry; omit the supporting line and crop its space.
+wordmark = line('SALTY BABE', serif, 180)
+for color, name in [('#000000', 'black'), ('#FFFFFF', 'white')]:
+    pad = 42
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {wordmark['width']+2*pad:.4f} {wordmark['height']+2*pad:.4f}" role="img" aria-labelledby="title">
+<title id="title">Salty Babe — {name} horizontal wordmark</title>
+<g fill="{color}">{draw(wordmark, pad, pad)}</g>
+</svg>\n'''
+    (HERE / f'salty-babe-{name}.svg').write_text(svg)
