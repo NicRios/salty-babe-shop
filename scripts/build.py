@@ -1,10 +1,12 @@
 """Build the editable, dependency-free shop from content/site.json."""
 from pathlib import Path
+from hashlib import sha256
 import html
 import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
+style_version = sha256((ROOT / 'assets/styles.css').read_bytes()).hexdigest()[:12]
 data = json.loads((ROOT / 'content/site.json').read_text())
 esc = html.escape
 css = []
@@ -67,7 +69,7 @@ page = f'''<!doctype html>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'">
 <title>Salty Babe Shop</title>
 <link rel="stylesheet" href="assets/fonts.css">
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css?v={style_version}">
 <link rel="stylesheet" href="assets/layout.css">
 </head>
 <body>
