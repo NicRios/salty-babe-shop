@@ -3,14 +3,11 @@
 @font-face{font-family:'Wonder Garden';src:url('./fonts/wondergarden-regular.woff') format('woff');font-display:swap}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#19191a;font-family:'Josefin Sans',sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}img{display:block;width:100%;height:100%;object-fit:cover}h1,h2,p{margin:0;font-weight:400}a:focus-visible,button:focus-visible{outline:2px solid #52645c;outline-offset:5px}a:hover{opacity:.75}.skip-link{position:fixed;left:12px;top:-80px;padding:12px;background:#fff;z-index:100}.skip-link:focus{top:12px}
 .masthead{height:150px;border-bottom:1px solid #c7c7c7;position:relative}.tagline{position:absolute;left:49px;top:37px;font:20px/24px 'Noir Et Blanc Italic'}.header-brand{position:absolute;top:40px;left:calc(50% + 15px);transform:translateX(-50%);width:411px;text-align:center;color:#000}.wordmark{display:block;font:70px/70px 'Noir Et Blanc';white-space:nowrap}.photo-co{display:block;font:600 13px/15.6px 'Josefin Sans';letter-spacing:5.2px}.social-links{position:absolute;right:64px;top:37px;display:flex;gap:8px}.social-links a{display:block;width:21px;height:19px}.social-links svg{display:block;width:100%;height:100%}
-.desktop-nav{height:60px;position:sticky;top:0;background:#fff;z-index:20}.desktop-nav>div{max-width:978px;height:100%;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:0 17px}.desktop-nav a{font:11px/11px 'Josefin Sans';letter-spacing:3.3px;text-transform:uppercase}.mobile-bar,.mobile-menu{display:none}
 .hero{position:relative;height:min(80.7947vw,1220px);overflow:hidden}.hero-photo{position:absolute;left:-.6623%;top:0;width:101.3907%;height:122.62295%;object-fit:fill}.hero h1{position:absolute;top:37.04918%;left:50%;transform:translateX(-50%);width:434px;text-align:center;font:min(6.6225vw,100px)/1 'Noir Et Blanc';color:#fff}.hero>p{position:absolute;top:45.65574%;left:50%;transform:translateX(-50%);width:547px;text-align:center;text-transform:uppercase;letter-spacing:.2em;font:min(2.31788vw,35px)/1.4 'Josefin Sans';color:#fff}.dive-arrow{position:absolute;left:50%;top:49.7541%;width:117px;height:57px;transform:translateX(-50%)}
 .canvas{position:relative;width:min(100%,1200px);margin:auto;container-type:inline-size}.element{position:absolute}.element.image img{object-fit:cover}.element.text .copy{margin:0;padding:0;font-weight:400}.element.image[href]:hover{opacity:.85}.element.image[href]{transition:opacity .2s}.social-spacer{height:20px}.instagram-strip{height:270px;overflow:hidden}.instagram-strip>div{display:grid;width:1717px;margin-left:calc((100% - 1717px)/2);grid-template-columns:repeat(9,270px);gap:5px}.instagram-strip img{aspect-ratio:1;object-fit:cover;height:270px}.instagram-strip img:nth-child(n+7){display:none}
-@media(max-width:1200px) and (min-width:768px){.tagline{left:25px}.social-links{right:25px}.desktop-nav>div{padding:0 6vw}.dive-arrow{width:7.75vw;height:3.775vw}}
+@media(max-width:1200px) and (min-width:768px){.tagline{left:25px}.social-links{right:25px}.dive-arrow{width:7.75vw;height:3.775vw}}
 @media(max-width:767px){
- .masthead{height:50vw;border:0}.tagline,.social-links,.desktop-nav{display:none}.header-brand{left:50%;top:13.75vw;width:88.125vw}.wordmark{font-size:15.625vw;line-height:1}.photo-co{position:absolute;top:20.625vw;left:50%;transform:translateX(-50%);width:60vw;font-size:3.4375vw;line-height:1;letter-spacing:1.375vw}
- .mobile-bar{display:flex;position:fixed;left:0;top:0;right:0;height:10.9375vw;align-items:center;justify-content:space-between;padding:0 3.5vw;background:#fff;border-bottom:1px solid #c7c7c7;z-index:40}.menu-toggle{background:none;border:0;display:flex;align-items:center;gap:3vw;padding:0;color:#19191a;cursor:pointer}.menu-toggle>span:last-child{font:14.0625vw/1 'Wonder Garden';height:9vw;padding-top:1vw}.hamburger{width:6.5vw;height:4.3vw;border-top:1px solid;border-bottom:1px solid;position:relative}.hamburger:after{content:'';position:absolute;top:50%;left:0;right:0;border-top:1px solid}.inquire{font:2.8125vw/1 'Josefin Sans';letter-spacing:.844vw;text-transform:uppercase;display:flex;align-items:center;gap:2vw}.inquire>span{font:6vw/1 serif}
- .mobile-menu:not([hidden]){position:fixed;inset:10.9375vw 0 0;display:flex;flex-direction:column;justify-content:center;gap:4vh;align-items:center;background:#fff;z-index:35}.mobile-menu a{font:9vw/1 'Noir Et Blanc'}.menu-open{overflow:hidden}
+ .masthead{height:39.0625vw;border:0}.tagline,.social-links{display:none}.header-brand{left:50%;top:2.8125vw;width:88.125vw}.wordmark{font-size:15.625vw;line-height:1}.photo-co{position:absolute;top:20.625vw;left:50%;transform:translateX(-50%);width:60vw;font-size:3.4375vw;line-height:1;letter-spacing:1.375vw}
  .hero{height:125vw}.hero-photo{left:-17.8125%;width:135.9375%;height:110.5%}.hero h1{top:32.25%;width:38.4375%;font-size:11.25vw}.hero>p{top:42.5%;width:50.625%;font-size:3.4375vw;letter-spacing:.6875vw;white-space:nowrap}.dive-arrow{top:47.25%;width:13.4375%;height:5.5%}
  .canvas{width:100%}.social-spacer{height:6.25vw}.instagram-strip{height:106.875vw}.instagram-strip>div{width:107.5vw;margin-left:-3.75vw;grid-template-columns:repeat(3,1fr);gap:.625vw}.instagram-strip img{height:35.2vw}.instagram-strip img:nth-child(n+7){display:block}
 }
@@ -19,16 +16,3 @@
 #saltybabe-contact{position:relative}
 #saltybabe-contact::before{content:'';position:absolute;inset:0 0 auto;height:1px;background:#c7c7c7}
 #saltybabe-contact-3{display:none}
-/* Match the original desktop nav spacing and compact mobile script label. */
-@media(min-width:768px){
- .desktop-nav>div{position:relative;width:min(100%,1200px);max-width:1200px;padding:0}
- .desktop-nav a{position:absolute;top:22px;text-align:center}
- .desktop-nav a:nth-child(1){left:10.083333%;width:6.916667%}
- .desktop-nav a:nth-child(2){left:20.25%;width:8.25%}
- .desktop-nav a:nth-child(3){left:31.833333%;width:9.25%}
- .desktop-nav a:nth-child(4){left:44.333333%;width:9.25%}
- .desktop-nav a:nth-child(5){left:56.833333%;width:8.166667%}
- .desktop-nav a:nth-child(6){left:68.333333%;width:9.166667%}
- .desktop-nav a:nth-child(7){left:80.75%;width:9.166667%}
-}
-@media(max-width:767px){.menu-toggle>span:last-child{line-height:0;height:0;padding:0;transform:translateY(-1.875vw)}}
