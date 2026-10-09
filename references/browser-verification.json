@@ -1,0 +1,65 @@
+{
+  "desktop": {
+    "height": 1000,
+    "horizontalOverflow": false,
+    "pageHeight": 9196,
+    "printLinks": [
+      "https://saltybabe.darkroom.com/products/1577211",
+      "https://saltybabe.darkroom.com/products/1612981",
+      "https://saltybabe.darkroom.com/products/1577217",
+      "https://saltybabe.darkroom.com/products/1577228",
+      "https://saltybabe.darkroom.com/products/1577221",
+      "https://saltybabe.darkroom.com/products/1577219",
+      "https://saltybabe.darkroom.com/products/1577248",
+      "https://saltybabe.darkroom.com/products/1577236",
+      "https://saltybabe.darkroom.com/products/1577215",
+      "https://saltybabe.darkroom.com/products/1577247",
+      "https://saltybabe.darkroom.com/products/1577222",
+      "https://saltybabe.darkroom.com/products/1577213",
+      "https://saltybabe.darkroom.com/products/1577204",
+      "https://saltybabe.darkroom.com/products/1577239",
+      "https://saltybabe.darkroom.com/products/1577245",
+      "https://saltybabe.darkroom.com/products/1612980",
+      "https://saltybabe.darkroom.com/products/1577212",
+      "https://saltybabe.darkroom.com/products/1577246",
+      "https://saltybabe.darkroom.com/products/1577244",
+      "https://saltybabe.darkroom.com/products/1577210",
+      "https://saltybabe.darkroom.com/products/1577218",
+      "https://saltybabe.darkroom.com/products/1577216",
+      "https://saltybabe.darkroom.com/products/1577686",
+      "https://saltybabe.darkroom.com/products/1577243",
+      "https://saltybabe.darkroom.com/products/1577231",
+      "https://saltybabe.darkroom.com/products/1577685",
+      "https://saltybabe.darkroom.com/products/1686430",
+      "https://saltybabe.darkroom.com/products/1577234",
+      "https://saltybabe.darkroom.com/products/1577229",
+      "https://saltybabe.darkroom.com/products/1577232",
+      "https://saltybabe.darkroom.com/products/1695252",
+      "https://saltybabe.darkroom.com/products/1695248",
+      "https://saltybabe.darkroom.com/products/1695250",
+      "https://saltybabe.darkroom.com/products/1695251",
+      "https://saltybabe.darkroom.com/products/1695234",
+      "https://saltybabe.darkroom.com/products/1695249",
+      "https://saltybabe.darkroom.com/products/1704856"
+    ],
+    "scripts": [
+      "http://127.0.0.1:4174/assets/site.js"
+    ],
+    "styles": [
+      "http://127.0.0.1:4174/assets/fonts.css",
+      "http://127.0.0.1:4174/assets/styles.css",
+      "http://127.0.0.1:4174/assets/layout.css"
+    ],
+    "unloadedImages": [],
+    "width": 1510
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "pageHeight": 8302,
+    "horizontalOverflow": false,
+    "unloadedImages": [],
+    "menuOpenAndEscapeClose": "passed"
+  },
+  "externalResources": []
+}
