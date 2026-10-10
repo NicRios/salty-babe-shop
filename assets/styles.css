@@ -69,5 +69,8 @@
  #preset-packages-8 img,#print-shop-gallery-to-darkroom-3 img{height:auto}
  #preset-packages-8 img{transform:translateY(-21%)}
  #print-shop-gallery-to-darkroom-3 img{transform:translateY(-15.087719%)}
+ /* Add a fixed gap below the label without compressing the products below it. */
+ #preset-packages .canvas{box-sizing:content-box;padding-bottom:10px}
+ #preset-packages .element:not(#preset-packages-8){margin-top:10px}
  #preset-packages,#print-shop-gallery-to-darkroom{scroll-margin-top:max(40px,10.547945vw)}
 }
