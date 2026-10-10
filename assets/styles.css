@@ -59,13 +59,13 @@
  .header-brand{top:50%;transform:translate(-50%,-50%)}
  .wordmark{font-size:15.9375vw}
  .photo-co{position:static;width:auto;transform:none;margin-top:4.9625vw;font-size:3.5625vw}
- /* Added water supplies the published hero height without cropping its sides. */
+ /* The portrait composition keeps the published height and the side sharks. */
  .hero{height:130vw}
  .hero-photo{left:0;top:0;width:100%;height:auto;object-fit:contain;transform:none}
- .hero-wave{display:block;position:absolute;top:115.5vw;left:-4px;width:calc(100% + 8px);height:auto;pointer-events:none}
- .hero h1{top:82vw;font-size:11.5vw}
- .hero>p{top:95.52vw}
- .dive-arrow{top:102.28vw;height:7.15vw}
+ .hero-wave{display:block;position:absolute;top:112.5vw;left:-4px;width:calc(100% + 8px);height:auto;pointer-events:none}
+ .hero h1{top:40%;font-size:11.5vw}
+ .hero>p{top:50.4%}
+ .dive-arrow{top:55.6%;height:7.15vw}
  /* Clip the artwork's transparent padding, retaining its original type size. */
  #preset-packages-8,#print-shop-gallery-to-darkroom-3{overflow:clip}
  #preset-packages-8 img,#print-shop-gallery-to-darkroom-3 img{height:auto}
