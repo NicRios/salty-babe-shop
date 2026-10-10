@@ -72,5 +72,6 @@
  /* Add a fixed gap below the label without compressing the products below it. */
  #preset-packages .canvas{box-sizing:content-box;padding-bottom:10px}
  #preset-packages .element:not(#preset-packages-8){margin-top:10px}
+ #print-shop-gallery-to-darkroom{padding-top:40px}
  #preset-packages,#print-shop-gallery-to-darkroom{scroll-margin-top:max(40px,10.547945vw)}
 }
