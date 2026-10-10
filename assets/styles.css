@@ -55,7 +55,8 @@
  .mobile-menu-links{position:absolute;left:0;right:0;top:100%;padding:16px 24px 20px;display:grid;gap:4px;background:#fff;border-bottom:1px solid #c7c7c7;box-shadow:0 10px 16px #0000000d}
  .mobile-menu-links a{display:flex;align-items:center;min-height:44px;font:13px/1.4 'Josefin Sans';letter-spacing:2px;text-transform:uppercase}
  .site-nav{display:none}
- .masthead{height:39.863014vw}
+ .masthead{height:calc(39.863014vw + 16px)}
+ .header-brand{top:calc(2.8125vw + 16px)}
  .wordmark{font-size:15.9375vw}
  .photo-co{top:20.9vw;font-size:3.5625vw}
  .hero-photo{height:112.7%}
