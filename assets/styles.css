@@ -82,15 +82,10 @@
 
 /* Desktop photograph and wave scale independently, preserving natural proportions. */
 @media(min-width:768px){
- .hero{height:min(66vw,1220px);max-width:2560px;margin-inline:auto;--desktop-title-top:28%;--desktop-title-size:min(6.6225vw,100px);--desktop-photo-offset:clamp(20px,3vw,44px);--desktop-hero-image:url('./images/hero-desktop-refined-hires.png')}
- /* Reflect only the water edge into the added headroom, without scaling the photo. */
- .hero::before{content:'';position:absolute;left:0;top:calc(var(--desktop-photo-offset) - 100%);width:100%;height:100%;background:var(--desktop-hero-image) center/cover no-repeat;transform:scaleY(-1);pointer-events:none}
- .hero-photo{left:0;top:var(--desktop-photo-offset);width:100%;height:100%;object-fit:cover;object-position:center}
+ .hero{height:min(66vw,1220px);max-width:2560px;margin-inline:auto;--desktop-title-top:28%;--desktop-title-size:min(6.6225vw,100px)}
+ .hero-photo{left:0;top:0;width:100%;height:100%;object-fit:cover;object-position:center}
  .hero-wave{display:block;position:absolute;top:78%;left:-1%;width:102%;height:44%;object-fit:fill;pointer-events:none}
  .hero h1{top:var(--desktop-title-top)}
  .hero>p{top:calc(var(--desktop-title-top) + var(--desktop-title-size) + 12px)}
  .dive-arrow{top:calc(var(--desktop-title-top) + var(--desktop-title-size) + min(3.245032vw,49px) + 28px)}
-}
-@media(min-width:2000px){
- .hero{--desktop-hero-image:url('./images/hero-desktop-wide-hires.png')}
 }
