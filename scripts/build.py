@@ -95,7 +95,12 @@ page = f'''<!doctype html>
 <nav class="site-nav" aria-label="Main navigation"><div>{nav}</div></nav>
 <main id="main">
 <section class="hero" aria-label="Shop and collection">
-<img class="hero-photo" src="assets/images/group_8_4.png" alt="Snorkeler swimming with sharks in clear blue ocean water" fetchpriority="high">
+<picture>
+<source media="(min-width:2000px)" srcset="assets/images/hero-desktop-wide-clear-water.png">
+<source media="(max-width:767px)" srcset="assets/images/hero-mobile-portrait-headroom.png">
+<img class="hero-photo" src="assets/images/hero-desktop-clear-water.png" alt="Snorkeler swimming with sharks in clear blue ocean water" fetchpriority="high">
+</picture>
+<img class="hero-wave" src="assets/images/hero-mobile-wave.png" alt="" aria-hidden="true">
 <h1>Dive In</h1>
 <p>Shop &amp; Collection</p>
 <a class="dive-arrow" href="#preset-packages" aria-label="Explore photo presets"><img src="assets/images/icons8-down-arrow-100_1.png" alt=""></a>
