@@ -1,6 +1,6 @@
 # Salty Babe Shop recreation
 
-Editable recreation of [availethphoto.com/salty-babe-shop](https://availethphoto.com/salty-babe-shop), captured October 8, 2026, with the Ocean Glow and Sun & Sand product pages captured October 12. Purchases continue to the original Stripe checkout links.
+Editable recreation of [availethphoto.com/salty-babe-shop](https://availethphoto.com/salty-babe-shop), captured October 8, 2026, with the Ocean Glow, Sun & Sand, and contact pages captured October 12. Purchases continue to the original Stripe checkout links.
 
 - **Live page:** https://nicrios.github.io/salty-babe-shop/
 - **Local preview:** `python3 -m http.server 4174 --bind 127.0.0.1`
@@ -9,11 +9,13 @@ Editable recreation of [availethphoto.com/salty-babe-shop](https://availethphoto
 
 ## Editing
 
-Text, image paths, links, and the original desktop/mobile positions live in `content/site.json`. Rebuild the HTML and position rules with `python3 scripts/build.py`. The masthead, navigation and hero are in that script's template; their styles live in `assets/styles.css`. At widths through 767px, a menu and Inquire link sit above the logo; the menu contains Home, Photo Presets, Print Shop and Inquire. Tablet and desktop retain their four-link navigation. Presets and prints jump to their page sections; Inquire retains the original contact destination. The native disclosure menu works without JavaScript; the local `assets/mobile-menu.js` closes it on link selection, outside clicks, Escape, and a switch to a wider layout. The six-photo strip above the footer is controlled by `footerPhotos`: six columns on desktop and three columns by two rows at 1024px and below. The supplied photos are stored locally as optimized WebP files; the separate footer portrait uses its original local image.
+Text, image paths, links, and the original desktop/mobile positions live in `content/site.json`. Rebuild the HTML and position rules with `python3 scripts/build.py`. The masthead, navigation and hero are in that script's template; their styles live in `assets/styles.css`. At widths through 767px, a menu and Inquire link sit above the logo; the menu contains Home, Photo Presets, Print Shop and Inquire. Tablet and desktop retain their four-link navigation. Presets and prints jump to their page sections; Inquire and Contact Me open the local contact page. The native disclosure menu works without JavaScript; the local `assets/mobile-menu.js` closes it on link selection, outside clicks, Escape, and a switch to a wider layout. The six-photo strip above the footer is controlled by `footerPhotos`: six columns on desktop and three columns by two rows at 1024px and below. The supplied photos are stored locally as optimized WebP files; the separate footer portrait uses its original local image.
 
 Photographs and decorative images are in `assets/images/`; all fonts are in `assets/fonts/`. No scripts, CSS, fonts, images, analytics, or embeds load from another host. A Content Security Policy enforces same-origin resources. Shop buttons open the local product pages; their purchase links retain the original checkout destinations.
 
 Product copy and comparison photographs are configured in `content/products.json`, with their original source URLs recorded there. The pages are `shop-product-ocean-glow.html` and `sun-and-sand.html`; their responsive layout is in `assets/products.css`. Both use the same generated masthead, navigation, six-photo strip and footer as the index. Product navigation returns Home, Photo Presets and Print Shop to the index; mobile displays the title and first two comparison images before the description, purchase button and remaining photographs. The copied pages end at the shared footer, without the original Ocean Glow page's trailing blank space. Sun & Sand retains the contact section.
+
+The contact page is `contact.html`, with editable headings, fields, options, and business details in `content/contact.json`. It uses the shared masthead, navigation, six-photo strip, and footer. `assets/contact.css` retains the reference form typography with a locally bundled Cormorant Garamond font (license alongside the asset). `assets/contact.js` enables native required-field and email validation, then shows a clear preview confirmation; it never sends, stores, or clears entered inquiries. The button stays disabled without JavaScript. There is no HoneyBook embed, SMS consent copy, or reCAPTCHA in this prototype. All Inquire and Contact Me links use this local page.
 
 The masthead and footer use the supplied transparent `salty babe logo (1).png`, copied unchanged to `assets/images/salty-babe-logo.png` (1158 × 555). The lettering and subtitle are one image, preserving the approved spacing and natural aspect ratio. In the desktop footer, the logo and photographer tagline are centered together between the photo and menu panels; the earlier starfish is removed.
 
@@ -31,7 +33,7 @@ Run `python3 scripts/check.py` to verify local resource paths. For visual change
 
 ## Publishing
 
-Changes use a feature branch and pull request. After merge to `main`, `.github/workflows/pages.yml` deploys `index.html`, both product HTML files and `assets/` to GitHub Pages. The content model, reference captures, and project scripts are not included in the deployed pages.
+Changes use a feature branch and pull request. After merge to `main`, `.github/workflows/pages.yml` deploys `index.html`, both product HTML files, `contact.html`, and `assets/` to GitHub Pages. The content model, reference captures, and project scripts are not included in the deployed pages.
 
 ## Reference provenance
 

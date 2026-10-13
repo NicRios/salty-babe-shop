@@ -64,11 +64,11 @@ def render_section(section):
     output.append('</div></section>')
     return '\n'.join(output)
 
-def render_navigation(on_product=False):
+def render_navigation(on_inner_page=False):
     links = []
     for item in data['navigation']:
         href = item['href']
-        if on_product and href.startswith('#'):
+        if on_inner_page and href.startswith('#'):
             href = './' + href
         links.append(f'<a href="{esc(href)}">{esc(item["label"])}</a>')
     return ''.join(links)
@@ -80,8 +80,8 @@ layout_version = sha256(layout.encode()).hexdigest()[:12]
 strip_photos = ''.join(f'<div class="gallery-photo"><img src="{esc(photo["src"])}" alt="{esc(photo["alt"])}" decoding="async"></div>' for photo in data['footerPhotos'])
 strip = f'<div class="instagram-strip" role="group" aria-label="Photography collection"><div>{strip_photos}</div></div>'
 
-def render_header(on_product=False):
-    nav = render_navigation(on_product)
+def render_header(on_inner_page=False):
+    nav = render_navigation(on_inner_page)
     return f'''<nav class="mobile-nav" aria-label="Mobile navigation">
 <details class="mobile-menu">
 <summary aria-label="Menu"><svg class="menu-icon" viewBox="0 0 50 32" aria-hidden="true"><path d="M0 1h50M0 16h50M0 31h50"></path></svg><span class="menu-label" aria-hidden="true">menu</span></summary>
@@ -97,11 +97,16 @@ def render_header(on_product=False):
 <nav class="site-nav" aria-label="Main navigation"><div>{nav}</div></nav>
 '''
 
-def render_page(title, description, main_content, on_product=False):
-    product_styles = ''
-    if on_product:
-        version = sha256((ROOT / 'assets/products.css').read_bytes()).hexdigest()[:12]
-        product_styles = f'<link rel="stylesheet" href="assets/products.css?v={version}">\n'
+def render_page(title, description, main_content, page_type='home'):
+    page_styles = ''
+    page_script = ''
+    stylesheet = {'product': 'products.css', 'contact': 'contact.css'}.get(page_type)
+    if stylesheet:
+        version = sha256((ROOT / 'assets' / stylesheet).read_bytes()).hexdigest()[:12]
+        page_styles = f'<link rel="stylesheet" href="assets/{stylesheet}?v={version}">\n'
+    if page_type == 'contact':
+        version = sha256((ROOT / 'assets/contact.js').read_bytes()).hexdigest()[:12]
+        page_script = f'<script src="assets/contact.js?v={version}" defer></script>\n'
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -114,16 +119,16 @@ def render_page(title, description, main_content, on_product=False):
 <link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="assets/styles.css?v={style_version}">
 <link rel="stylesheet" href="assets/layout.css?v={layout_version}">
-{product_styles}</head>
+{page_styles}</head>
 <body>
 <a class="skip-link" href="#main">Skip to shop</a>
-{render_header(on_product)}<main id="main">
+{render_header(page_type != 'home')}<main id="main">
 {main_content}
 {strip}
 </main>
 <footer>{sections['saltybabe-footer-1']}</footer>
 <script src="assets/mobile-menu.js" defer></script>
-</body>
+{page_script}</body>
 </html>
 '''
 
@@ -163,7 +168,50 @@ for product in products:
 </section>'''
     if product['showContact']:
         content += '\n' + sections['saltybabe-contact'] + '\n<div class="social-spacer"></div>'
-    (ROOT / (product['slug'] + '.html')).write_text(render_page(product['title'] + ' | Salty Babe', product['title'] + ': Lightroom presets for mobile and desktop.', content, on_product=True))
+    (ROOT / (product['slug'] + '.html')).write_text(render_page(product['title'] + ' | Salty Babe', product['title'] + ': Lightroom presets for mobile and desktop.', content, page_type='product'))
+
+contact = json.loads((ROOT / 'content/contact.json').read_text())
+fields = []
+for field in contact['fields']:
+    field_id = 'contact-' + field['name']
+    required = ' required' if field.get('required') else ''
+    marker = ' <span aria-hidden="true">*</span>' if required else ''
+    attrs = f'id="{field_id}" name="{esc(field["name"])}"{required}'
+    if field.get('placeholder'):
+        attrs += f' placeholder="{esc(field["placeholder"], quote=True)}"'
+    if field.get('autocomplete'):
+        attrs += f' autocomplete="{esc(field["autocomplete"])}"'
+    hint = ''
+    if field.get('hint'):
+        attrs += f' aria-describedby="{field_id}-hint"'
+        hint = f'<span class="field-hint" id="{field_id}-hint">{esc(field["hint"])}</span>'
+    if field['type'] == 'select':
+        options = '<option value="">Select an option</option>'
+        options += ''.join(f'<option value="{esc(option, quote=True)}">{esc(option)}</option>' for option in field['options'])
+        control = f'<div class="contact-select"><select {attrs}>{options}</select></div>'
+    elif field['type'] == 'textarea':
+        control = f'<textarea {attrs} rows="4"></textarea>'
+    else:
+        control = f'<input type="{esc(field["type"])}" {attrs}>'
+    fields.append(f'<div class="contact-field"><label for="{field_id}">{esc(field["label"])}{marker}</label>{hint}{control}</div>')
+
+contact_content = f'''<section class="contact-page" aria-labelledby="contact-title">
+<div class="contact-intro">
+<h1 id="contact-title">{esc(contact['title'])}</h1>
+<p>{esc(contact['intro'])}</p>
+</div>
+<form id="contact-form" class="contact-form" aria-labelledby="contact-title">
+{''.join(fields)}
+<button class="element button contact-send" type="submit" disabled><span class="button-label">Send</span></button>
+<p class="contact-status" id="contact-status" role="status" tabindex="-1" hidden></p>
+<noscript><p class="contact-status">This is a prototype form. Enable JavaScript to preview it; no inquiry will be sent.</p></noscript>
+</form>
+<div class="contact-details">
+<a href="mailto:{esc(contact['email'])}">{esc(contact['email'])}</a>
+<p>Business hours<br>{esc(contact['businessHours'])}</p>
+</div>
+</section>'''
+(ROOT / 'contact.html').write_text(render_page('Inquire | Salty Babe', 'Inquire about your date and share your photography plans with Salty Babe.', contact_content, page_type='contact'))
 
 (ROOT/'assets/layout.css').write_text(layout)
-print(f'Built the shop, {len(products)} product pages, and shared layout.css.')
+print(f'Built the shop, {len(products)} product pages, contact page, and shared layout.css.')

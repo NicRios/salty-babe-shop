@@ -16,7 +16,7 @@
     },
     {
       "label": "Inquire",
-      "href": "https://availethphoto.com/contact"
+      "href": "contact.html"
     }
   ],
   "social": [
@@ -1377,7 +1377,7 @@
       "nodes": [
         {
           "id": "saltybabe-contact-0",
-          "href": "https://availethphoto.com/contact",
+          "href": "contact.html",
           "text": "INQUIRE ABOUT UNDERWATER PHOTO SESSIONS",
           "desktop": {
             "x": 361,
@@ -1433,7 +1433,7 @@
         },
         {
           "id": "saltybabe-contact-2",
-          "href": "https://availethphoto.com/contact",
+          "href": "contact.html",
           "text": "LET'S MAKE SOMETHING",
           "desktop": {
             "x": 446,
@@ -1461,7 +1461,7 @@
         },
         {
           "id": "saltybabe-contact-4",
-          "href": "https://availethphoto.com/contact",
+          "href": "contact.html",
           "text": "CONTACT ME",
           "desktop": {
             "x": 487,
@@ -1770,7 +1770,7 @@
         },
         {
           "id": "saltybabe-footer-1-11",
-          "href": "https://availethphoto.com/contact",
+          "href": "contact.html",
           "text": "INQUIRE",
           "desktop": {
             "x": 944,
