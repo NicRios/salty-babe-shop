@@ -1,0 +1,22 @@
+/* Product pages share the shop's header, navigation, buttons, photo strip and footer. */
+.product-detail{display:grid;grid-template-columns:minmax(0,435fr) minmax(0,596fr);gap:52px;max-width:1200px;margin-inline:auto;padding:32px clamp(24px,5.25vw,63px) 56px clamp(24px,4.5vw,54px)}
+.product-gallery{display:flex;flex-direction:column;gap:8px;min-width:0}
+.product-photo{flex:none;align-self:center;width:100%;margin:0}
+.product-photo--medium{width:108.046%}
+.product-photo--wide{width:121.839%}
+.product-photo img{width:100%;height:auto;object-fit:contain}
+.product-summary{padding-top:29px;min-width:0}
+.product-summary h1{margin:0 0 44px;font:clamp(32px,4.21875vw,54px)/1.05 'Noir Et Blanc';color:#000}
+.product-description{font:300 clamp(15px,1.40625vw,18px)/1.4 'Josefin Sans';letter-spacing:.1em;color:#19191a}
+.product-description strong{font-weight:600}
+.product-buy.element{position:static;width:100%;min-height:var(--action-button-height);margin-top:48px;padding-inline:12px}
+@media(min-width:768px) and (max-width:1024px){.product-detail{column-gap:32px}}
+@media(max-width:767px){
+ .product-detail{display:flex;flex-direction:column;gap:16px;max-width:460px;padding:28px 42px 48px}
+ .product-gallery,.product-summary{display:contents}
+ .product-summary h1{order:0;align-self:center;width:calc(100% + 32px);margin:0 0 12px;font-size:28px;line-height:1.15;text-align:center}
+ .product-photo{order:4;width:100%}
+ .product-photo:nth-child(-n+2){order:1}
+ .product-description{order:2;margin-top:32px;font-size:18px;line-height:1.4}
+ .product-buy.element{order:3;align-self:center;width:calc(100% + 48px);margin:20px 0 16px;font-size:14px}
+}
