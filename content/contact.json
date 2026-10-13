@@ -1,0 +1,22 @@
+{
+  "source": "https://availethphoto.com/contact",
+  "captured": "2026-10-12",
+  "fontSource": "https://fonts.googleapis.com/css?family=Cormorant+Garamond%7C+serif",
+  "title": "Inquire about your date",
+  "intro": "Let me know a little bit about you by filling out the form below and we'll be in touch shortly!",
+  "email": "kerstin@availethphoto.com",
+  "businessHours": "Monday-Friday, 9am-4pm",
+  "fields": [
+    {"name": "full-name", "label": "Full name", "type": "text", "placeholder": "Your name here", "autocomplete": "name", "required": true},
+    {"name": "partner-name", "label": "Partner's Name", "type": "text"},
+    {"name": "email", "label": "Your Email", "type": "email", "placeholder": "E.g. myemail@email.com", "autocomplete": "email", "required": true},
+    {"name": "phone", "label": "Phone Number", "type": "tel", "placeholder": "E.g. 541 444 0755", "autocomplete": "tel", "required": true},
+    {"name": "event", "label": "Event to Capture", "type": "select", "required": true, "options": ["Branding Session", "Elopement", "Engagements", "Event", "Proposal", "Wedding", "Other"]},
+    {"name": "investment", "label": "Planned photography investment", "hint": "*Minimum wedding investment $3950*", "type": "text"},
+    {"name": "date", "label": "Wedding/Project date", "type": "date"},
+    {"name": "venue", "label": "Venue or City", "type": "text", "placeholder": "E.g. 742 Evergreen Terrace, Springfield"},
+    {"name": "instagram", "label": "Instagram Handle", "type": "text", "placeholder": "@availeth.photo.co"},
+    {"name": "referral", "label": "How did you hear about me?", "type": "select", "options": ["Personal Website", "Google", "Facebook", "Instagram", "The Knot", "Yelp", "Thumbtack", "Vendor Referral", "Client Referral", "Other", "Unknown"]},
+    {"name": "vision", "label": "Tell me about your vision for your wedding or our photoshoot!", "type": "textarea", "placeholder": "What do I need to know about the project?"}
+  ]
+}

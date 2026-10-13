@@ -1,0 +1,595 @@
+{
+  "sourceCaptured": "2026-10-12",
+  "referenceUrl": "https://saltybabe.darkroom.com/products/1577211",
+  "material": "Professional Paper",
+  "prices": {
+    "8x12": 24,
+    "10x15": 28,
+    "12x18": 53,
+    "16x24": 84,
+    "20x30": 108,
+    "24x36": 124,
+    "30x45": 155
+  },
+  "specifications": [
+    "Fujicolor Crystal Archive Professional Lustre Paper",
+    "210gsm",
+    "Vibrant, fine-grain pebble texture",
+    "Archival: 100+ years on display, 200+ years in storage",
+    "Silver halide, RA-4 wet printing process",
+    "White borders do not change the overall print size."
+  ],
+  "prints": [
+    {
+      "id": "1577211",
+      "source": "https://saltybabe.darkroom.com/products/1577211",
+      "title": "Mākaha",
+      "description": "West side from above",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/dji_0421_1.png"
+    },
+    {
+      "id": "1612981",
+      "source": "https://saltybabe.darkroom.com/products/1612981",
+      "title": "Manta Ray",
+      "description": "Manta Ray Eating phytoplankton",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30"
+      ],
+      "src": "assets/images/dsc01673_1.png"
+    },
+    {
+      "id": "1577217",
+      "source": "https://saltybabe.darkroom.com/products/1577217",
+      "title": "Galapagos Shark",
+      "description": "Sharks are friends, not food.",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/img_8247_1.png"
+    },
+    {
+      "id": "1577228",
+      "source": "https://saltybabe.darkroom.com/products/1577228",
+      "title": "Kauai From Above",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/img_1311_1.png"
+    },
+    {
+      "id": "1577221",
+      "source": "https://saltybabe.darkroom.com/products/1577221",
+      "title": "Play Date",
+      "description": "Hawai'i Spinners playing in the sun flares",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc00866_1_1.png"
+    },
+    {
+      "id": "1577219",
+      "source": "https://saltybabe.darkroom.com/products/1577219",
+      "title": "Sticky Situation",
+      "description": "She just wanted to tag along for the ride",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc03999.jpg"
+    },
+    {
+      "id": "1577248",
+      "source": "https://saltybabe.darkroom.com/products/1577248",
+      "title": "Starry Night In Washington",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/494a7364_1.png"
+    },
+    {
+      "id": "1577236",
+      "source": "https://saltybabe.darkroom.com/products/1577236",
+      "title": "Floating Tako",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30"
+      ],
+      "src": "assets/images/dsc08294.jpg"
+    },
+    {
+      "id": "1577215",
+      "source": "https://saltybabe.darkroom.com/products/1577215",
+      "title": "Makapuu",
+      "description": "Stunning view from the east side of the aina",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/494a8586_1.png"
+    },
+    {
+      "id": "1577247",
+      "source": "https://saltybabe.darkroom.com/products/1577247",
+      "title": "North Shore Swells",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/kert8607_1.png"
+    },
+    {
+      "id": "1577222",
+      "source": "https://saltybabe.darkroom.com/products/1577222",
+      "title": "Honu",
+      "description": "clean shell with no barnacles.",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/dsc07989_1.png"
+    },
+    {
+      "id": "1577213",
+      "source": "https://saltybabe.darkroom.com/products/1577213",
+      "title": "The Aloha Turtle",
+      "description": "Hawaiian honu saying aloha",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc03699.jpg"
+    },
+    {
+      "id": "1577204",
+      "source": "https://saltybabe.darkroom.com/products/1577204",
+      "title": "Tiger Shark",
+      "description": "14 Foot Hawai'i Tiger Shark",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc05913_1.png"
+    },
+    {
+      "id": "1577239",
+      "source": "https://saltybabe.darkroom.com/products/1577239",
+      "title": "Eagle Rays",
+      "description": "Mama & baby eagle ray",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc05847_6.png"
+    },
+    {
+      "id": "1577245",
+      "source": "https://saltybabe.darkroom.com/products/1577245",
+      "title": "Mama & Baby",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/dsc00542_1.png"
+    },
+    {
+      "id": "1612980",
+      "source": "https://saltybabe.darkroom.com/products/1612980",
+      "title": "Manta",
+      "description": "Manta ray on the Big Island",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc01638-edit_1.png"
+    },
+    {
+      "id": "1577212",
+      "source": "https://saltybabe.darkroom.com/products/1577212",
+      "title": "You Made Me Ink",
+      "description": "baby octo",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/dsc04450-enhanced-nr.jpg"
+    },
+    {
+      "id": "1577246",
+      "source": "https://saltybabe.darkroom.com/products/1577246",
+      "title": "Mama & Baby Eagle Rays",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/dsc05831_1.png"
+    },
+    {
+      "id": "1577244",
+      "source": "https://saltybabe.darkroom.com/products/1577244",
+      "title": "Lonesome Eagle Ray",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30"
+      ],
+      "src": "assets/images/dsc00284-edit.jpg"
+    },
+    {
+      "id": "1577210",
+      "source": "https://saltybabe.darkroom.com/products/1577210",
+      "title": "Hawai'i Spinner Dolphins",
+      "description": "west side, best side",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc02937_1_1.png"
+    },
+    {
+      "id": "1577218",
+      "source": "https://saltybabe.darkroom.com/products/1577218",
+      "title": "The Stripes",
+      "description": "15 foot tiger shark 3 miles off of the Haleiwa Harbor.",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc07445_1.png"
+    },
+    {
+      "id": "1577216",
+      "source": "https://saltybabe.darkroom.com/products/1577216",
+      "title": "Dol-friends",
+      "description": "Hawai'i spinner dolphins",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/dsc02972_1_1.png"
+    },
+    {
+      "id": "1577686",
+      "source": "https://saltybabe.darkroom.com/products/1577686",
+      "title": "Tako Bout A Sticky Situation",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc08207_1.png"
+    },
+    {
+      "id": "1577243",
+      "source": "https://saltybabe.darkroom.com/products/1577243",
+      "title": "North Shore Swells",
+      "description": "Don't play in North Shore waters",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/kert8402_1.png"
+    },
+    {
+      "id": "1577231",
+      "source": "https://saltybabe.darkroom.com/products/1577231",
+      "title": "Colorful Honu",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc09220.jpg"
+    },
+    {
+      "id": "1577685",
+      "source": "https://saltybabe.darkroom.com/products/1577685",
+      "title": "tako",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc08278_1.png"
+    },
+    {
+      "id": "1686430",
+      "source": "https://saltybabe.darkroom.com/products/1686430",
+      "title": "Galapagos",
+      "description": "Galaps of Hawai'i",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/shark_print.png"
+    },
+    {
+      "id": "1577234",
+      "source": "https://saltybabe.darkroom.com/products/1577234",
+      "title": "Another Floating Tako",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30"
+      ],
+      "src": "assets/images/dsc04358-enhanced-nr.png"
+    },
+    {
+      "id": "1577229",
+      "source": "https://saltybabe.darkroom.com/products/1577229",
+      "title": "Mount Rainier",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/darkroom_mountain.png"
+    },
+    {
+      "id": "1577232",
+      "source": "https://saltybabe.darkroom.com/products/1577232",
+      "title": "Tolmie fire Peak Lookout",
+      "description": "Sunset above the clouds",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/darkroom_image.png"
+    },
+    {
+      "id": "1695252",
+      "source": "https://saltybabe.darkroom.com/products/1695252",
+      "title": "Sleepy Seal",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/dsc05258_1.png"
+    },
+    {
+      "id": "1695248",
+      "source": "https://saltybabe.darkroom.com/products/1695248",
+      "title": "Mobulas",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc05714_1.png"
+    },
+    {
+      "id": "1695250",
+      "source": "https://saltybabe.darkroom.com/products/1695250",
+      "title": "Mexico seal",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc04973_1.png"
+    },
+    {
+      "id": "1695251",
+      "source": "https://saltybabe.darkroom.com/products/1695251",
+      "title": "Mexico Seal",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36"
+      ],
+      "src": "assets/images/dsc04971_1.png"
+    },
+    {
+      "id": "1695234",
+      "source": "https://saltybabe.darkroom.com/products/1695234",
+      "title": "Playful seal",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc03474_1.png"
+    },
+    {
+      "id": "1695249",
+      "source": "https://saltybabe.darkroom.com/products/1695249",
+      "title": "Mobula Rays In Mexico",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/dsc05743_1.png"
+    },
+    {
+      "id": "1704856",
+      "source": "https://saltybabe.darkroom.com/products/1704856",
+      "title": "Spotted Eagle Ray",
+      "description": "",
+      "sizes": [
+        "8x12",
+        "10x15",
+        "12x18",
+        "16x24",
+        "20x30",
+        "24x36",
+        "30x45"
+      ],
+      "src": "assets/images/5f7a9637_1.png"
+    }
+  ]
+}

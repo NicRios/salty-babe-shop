@@ -64,11 +64,11 @@ def render_section(section):
     output.append('</div></section>')
     return '\n'.join(output)
 
-def render_navigation(on_product=False):
+def render_navigation(on_inner_page=False):
     links = []
     for item in data['navigation']:
         href = item['href']
-        if on_product and href.startswith('#'):
+        if on_inner_page and href.startswith('#'):
             href = './' + href
         links.append(f'<a href="{esc(href)}">{esc(item["label"])}</a>')
     return ''.join(links)
@@ -80,8 +80,8 @@ layout_version = sha256(layout.encode()).hexdigest()[:12]
 strip_photos = ''.join(f'<div class="gallery-photo"><img src="{esc(photo["src"])}" alt="{esc(photo["alt"])}" decoding="async"></div>' for photo in data['footerPhotos'])
 strip = f'<div class="instagram-strip" role="group" aria-label="Photography collection"><div>{strip_photos}</div></div>'
 
-def render_header(on_product=False):
-    nav = render_navigation(on_product)
+def render_header(on_inner_page=False):
+    nav = render_navigation(on_inner_page)
     return f'''<nav class="mobile-nav" aria-label="Mobile navigation">
 <details class="mobile-menu">
 <summary aria-label="Menu"><svg class="menu-icon" viewBox="0 0 50 32" aria-hidden="true"><path d="M0 1h50M0 16h50M0 31h50"></path></svg><span class="menu-label" aria-hidden="true">menu</span></summary>
@@ -97,11 +97,17 @@ def render_header(on_product=False):
 <nav class="site-nav" aria-label="Main navigation"><div>{nav}</div></nav>
 '''
 
-def render_page(title, description, main_content, on_product=False):
-    product_styles = ''
-    if on_product:
-        version = sha256((ROOT / 'assets/products.css').read_bytes()).hexdigest()[:12]
-        product_styles = f'<link rel="stylesheet" href="assets/products.css?v={version}">\n'
+def render_page(title, description, main_content, page_type='home'):
+    page_styles = ''
+    page_script = ''
+    stylesheet = {'product': 'products.css', 'contact': 'contact.css', 'print': 'prints.css'}.get(page_type)
+    if stylesheet:
+        version = sha256((ROOT / 'assets' / stylesheet).read_bytes()).hexdigest()[:12]
+        page_styles = f'<link rel="stylesheet" href="assets/{stylesheet}?v={version}">\n'
+    script = {'contact': 'contact.js', 'print': 'prints.js'}.get(page_type)
+    if script:
+        version = sha256((ROOT / 'assets' / script).read_bytes()).hexdigest()[:12]
+        page_script = f'<script src="assets/{script}?v={version}" defer></script>\n'
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -114,16 +120,16 @@ def render_page(title, description, main_content, on_product=False):
 <link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="assets/styles.css?v={style_version}">
 <link rel="stylesheet" href="assets/layout.css?v={layout_version}">
-{product_styles}</head>
+{page_styles}</head>
 <body>
 <a class="skip-link" href="#main">Skip to shop</a>
-{render_header(on_product)}<main id="main">
+{render_header(page_type != 'home')}<main id="main">
 {main_content}
 {strip}
 </main>
 <footer>{sections['saltybabe-footer-1']}</footer>
 <script src="assets/mobile-menu.js" defer></script>
-</body>
+{page_script}</body>
 </html>
 '''
 
@@ -163,7 +169,89 @@ for product in products:
 </section>'''
     if product['showContact']:
         content += '\n' + sections['saltybabe-contact'] + '\n<div class="social-spacer"></div>'
-    (ROOT / (product['slug'] + '.html')).write_text(render_page(product['title'] + ' | Salty Babe', product['title'] + ': Lightroom presets for mobile and desktop.', content, on_product=True))
+    (ROOT / (product['slug'] + '.html')).write_text(render_page(product['title'] + ' | Salty Babe', product['title'] + ': Lightroom presets for mobile and desktop.', content, page_type='product'))
+
+contact = json.loads((ROOT / 'content/contact.json').read_text())
+fields = []
+for field in contact['fields']:
+    field_id = 'contact-' + field['name']
+    required = ' required' if field.get('required') else ''
+    marker = ' <span aria-hidden="true">*</span>' if required else ''
+    attrs = f'id="{field_id}" name="{esc(field["name"])}"{required}'
+    if field.get('placeholder'):
+        attrs += f' placeholder="{esc(field["placeholder"], quote=True)}"'
+    if field.get('autocomplete'):
+        attrs += f' autocomplete="{esc(field["autocomplete"])}"'
+    hint = ''
+    if field.get('hint'):
+        attrs += f' aria-describedby="{field_id}-hint"'
+        hint = f'<span class="field-hint" id="{field_id}-hint">{esc(field["hint"])}</span>'
+    if field['type'] == 'select':
+        options = '<option value="">Select an option</option>'
+        options += ''.join(f'<option value="{esc(option, quote=True)}">{esc(option)}</option>' for option in field['options'])
+        control = f'<div class="contact-select"><select {attrs}>{options}</select></div>'
+    elif field['type'] == 'textarea':
+        control = f'<textarea {attrs} rows="4"></textarea>'
+    else:
+        control = f'<input type="{esc(field["type"])}" {attrs}>'
+    fields.append(f'<div class="contact-field"><label for="{field_id}">{esc(field["label"])}{marker}</label>{hint}{control}</div>')
+
+contact_content = f'''<section class="contact-page" aria-labelledby="contact-title">
+<div class="contact-intro">
+<h1 id="contact-title">{esc(contact['title'])}</h1>
+<p>{esc(contact['intro'])}</p>
+</div>
+<form id="contact-form" class="contact-form" aria-labelledby="contact-title">
+{''.join(fields)}
+<button class="element button contact-send" type="submit" disabled><span class="button-label">Send</span></button>
+<p class="contact-status" id="contact-status" role="status" tabindex="-1" hidden></p>
+<noscript><p class="contact-status">This is a prototype form. Enable JavaScript to preview it; no inquiry will be sent.</p></noscript>
+</form>
+<div class="contact-details">
+<a href="mailto:{esc(contact['email'])}">{esc(contact['email'])}</a>
+<p>Business hours<br>{esc(contact['businessHours'])}</p>
+</div>
+</section>'''
+(ROOT / 'contact.html').write_text(render_page('Inquire | Salty Babe', 'Inquire about your date and share your photography plans with Salty Babe.', contact_content, page_type='contact'))
+
+print_catalog = json.loads((ROOT / 'content/prints.json').read_text())
+specifications = ''.join(f'<li>{esc(item)}</li>' for item in print_catalog['specifications'])
+for art in print_catalog['prints']:
+    size_options = []
+    for size in art['sizes']:
+        width, height = (int(value) for value in size.split('x'))
+        inches = f'{width} × {height}'
+        centimeters = f'{width * 2.54:.2f} × {height * 2.54:.2f}'
+        size_options.append(f'<option value="{size}" data-inches="{inches}" data-centimeters="{centimeters}" data-price="{print_catalog["prices"][size]}">{inches}</option>')
+    first_price = print_catalog['prices'][art['sizes'][0]]
+    description = art['description'] or f'{art["title"]} — a photographic print by Kerstin Jenkins.'
+    print_content = f'''<section class="print-page" aria-labelledby="print-title">
+<div class="print-card">
+<div class="print-toolbar"><a class="print-back" href="./#print-shop-gallery-to-darkroom"><span aria-hidden="true">←</span> Back to Gallery</a></div>
+<div class="print-layout">
+<div class="print-artwork">
+<h1 id="print-title">{esc(art['title'])}</h1>
+<figure class="print-preview" id="print-preview"><img src="{esc(art['src'])}" alt="{esc(art['title'])} by Kerstin Jenkins" id="print-photo" decoding="async" fetchpriority="high"></figure>
+</div>
+<div class="print-options">
+<form class="print-form" id="print-form" aria-label="Customize your print">
+<div class="print-field"><label for="print-material">Material</label><select id="print-material" name="material"><option>{esc(print_catalog['material'])}</option></select></div>
+<div class="print-field"><label for="print-size">Size (<span id="print-unit-label">inches</span>)</label><div class="print-size-row"><select id="print-size" name="size">{''.join(size_options)}</select><fieldset class="print-units"><legend class="print-sr-only">Size units</legend><input type="radio" name="units" id="print-inches" value="inches" checked><label for="print-inches">in</label><input type="radio" name="units" id="print-centimeters" value="centimeters"><label for="print-centimeters">cm</label></fieldset></div></div>
+<div class="print-field"><label for="print-border">Border</label><select id="print-border" name="border"><option value="none">No Border</option><option value="white">White Border</option></select></div>
+<button class="element button print-add" type="submit" disabled><span class="button-label">Add to Cart</span><span class="print-price" id="print-price" aria-live="polite">USD ${first_price}</span></button>
+<p class="print-status" id="print-status" role="status" tabindex="-1" hidden></p>
+<noscript><p class="print-status">Enable JavaScript to preview print options. This prototype does not place orders.</p></noscript>
+</form>
+<div class="print-details">
+<details open><summary>Description</summary><p>{esc(description)}</p></details>
+<details open><summary>Specifications</summary><ul>{specifications}</ul></details>
+<details><summary>Delivery &amp; Returns</summary><p>Professional paper prints are typically produced in 1–2 business days, then shipped. Tracking is emailed when the order ships. Prints are made to order and cannot be returned.</p><p>This is a shopping preview. No payment is collected and no order is placed.</p></details>
+</div>
+</div>
+</div>
+</div>
+</section>'''
+    (ROOT / f'print-{art["id"]}.html').write_text(render_page(art['title'] + ' | Salty Babe Prints', description, print_content, page_type='print'))
 
 (ROOT/'assets/layout.css').write_text(layout)
-print(f'Built the shop, {len(products)} product pages, and shared layout.css.')
+print(f'Built the shop, {len(products)} preset pages, {len(print_catalog["prints"])} print pages, contact page, and shared layout.css.')
