@@ -2,23 +2,36 @@
 @font-face{font-family:'Noir Et Blanc Italic';src:url('./fonts/noiretblanc_italic-webfont.woff') format('woff');font-display:swap}
 @font-face{font-family:'Wonder Garden';src:url('./fonts/wondergarden-regular.woff') format('woff');font-display:swap}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#19191a;font-family:'Josefin Sans',sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}img{display:block;width:100%;height:100%;object-fit:cover}h1,h2,p{margin:0;font-weight:400}a:focus-visible,button:focus-visible{outline:2px solid #52645c;outline-offset:5px}a:hover{opacity:.75}.skip-link{position:fixed;left:12px;top:-80px;padding:12px;background:#fff;z-index:100}.skip-link:focus{top:12px}
-.masthead{height:150px;border-bottom:1px solid #c7c7c7;position:relative}.tagline{position:absolute;left:49px;top:37px;font:20px/24px 'Noir Et Blanc Italic'}.header-brand{position:absolute;top:40px;left:calc(50% + 15px);transform:translateX(-50%);width:411px;text-align:center;color:#000}.wordmark{display:block;font:70px/70px 'Noir Et Blanc';white-space:nowrap}.photo-co{display:block;font:600 13px/15.6px 'Josefin Sans';letter-spacing:5.2px}.social-links{position:absolute;right:64px;top:37px;display:flex;gap:8px}.social-links a{display:block;width:21px;height:19px}.social-links svg{display:block;width:100%;height:100%}
-.hero{position:relative;height:min(80.7947vw,1220px);overflow:hidden}.hero-photo{position:absolute;left:-.6623%;top:0;width:101.3907%;height:122.62295%;object-fit:fill}.hero h1{position:absolute;top:37.04918%;left:50%;transform:translateX(-50%);width:434px;text-align:center;font:min(6.6225vw,100px)/1 'Noir Et Blanc';color:#fff}.hero>p{position:absolute;top:45.65574%;left:50%;transform:translateX(-50%);width:547px;text-align:center;text-transform:uppercase;letter-spacing:.2em;font:min(2.31788vw,35px)/1.4 'Josefin Sans';color:#fff}.dive-arrow{position:absolute;left:50%;top:49.7541%;width:117px;height:57px;transform:translateX(-50%)}
-.canvas{position:relative;width:min(100%,1200px);margin:auto;container-type:inline-size}.element{position:absolute}.element.image img{object-fit:cover}.element.text .copy{margin:0;padding:0;font-weight:400}.element.image[href]:hover{opacity:.85}.element.image[href]{transition:opacity .2s}.social-spacer{height:20px}.instagram-strip>div{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px}.gallery-photo{aspect-ratio:1;min-width:0;overflow:hidden}.instagram-strip img{width:100%;height:100%;object-fit:cover}.element.placeholder{display:grid;place-items:center;background:#eeede8;color:#747670;font:11px/1.4 'Josefin Sans';letter-spacing:2.2px;text-transform:uppercase}
+.masthead{position:relative;padding:20px 0 5px}.tagline{position:absolute;left:49px;top:37px;font:20px/24px 'Noir Et Blanc Italic'}.header-brand{display:block;width:min(315px,36vw);margin-inline:auto;text-align:center;color:#1C1E23}.brand-logo{display:block;width:100%;height:auto;object-fit:contain;transform:translateY(-5px)}.social-links{position:absolute;right:64px;top:37px;display:flex;gap:8px}.social-links a{display:block;width:21px;height:19px}.social-links svg{display:block;width:100%;height:100%}
+.hero{position:relative;height:min(80.7947vw,1220px);overflow:hidden}.hero-photo{position:absolute;left:-.6623%;top:0;width:101.3907%;height:122.62295%;object-fit:fill}.hero-copy{display:contents}.hero h1{position:absolute;top:37.04918%;left:50%;transform:translateX(-50%);width:434px;text-align:center;font:min(6.6225vw,100px)/1 'Noir Et Blanc';color:#fff}.hero-copy>p{position:absolute;top:45.65574%;left:50%;transform:translateX(-50%);width:547px;text-align:center;text-transform:uppercase;letter-spacing:.2em;font:min(2.31788vw,35px)/1.4 'Josefin Sans';color:#fff}.dive-arrow{position:absolute;left:50%;top:49.7541%;width:117px;height:57px;transform:translateX(-50%)}
+.canvas{position:relative;width:min(100%,1200px);margin:auto;container-type:inline-size}.element{position:absolute}.element.image img{object-fit:cover}.element.text .copy{margin:0;padding:0;font-weight:400}.element.image[href]:hover{opacity:.85}.element.image[href]{transition:opacity .2s}main{--contact-edge-space:20px}.social-spacer{height:var(--contact-edge-space)}.instagram-strip>div{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px}.gallery-photo{aspect-ratio:1;min-width:0;overflow:hidden}.instagram-strip img{width:100%;height:100%;object-fit:cover}.element.placeholder{display:grid;place-items:center;background:#eeede8;color:#747670;font:11px/1.4 'Josefin Sans';letter-spacing:2.2px;text-transform:uppercase}
+/* Shared action-button styling; navigation links retain their own rules. */
+.element.button{--action-button-height:clamp(44px,4.5vw,54px);display:flex;align-items:center;justify-content:center;padding:4px 10px;border:1px solid #909683;border-radius:0;background:#909683;color:#fff;font:600 clamp(14px,1.5vw,18px)/1.2 'Josefin Sans';letter-spacing:.16em;text-align:center;text-transform:uppercase}
+.element.button .button-label{display:block;text-indent:.16em;white-space:nowrap}
+@media(max-width:767px){.element.button{--action-button-height:52px;font-size:16px}}
 @media(max-width:1200px) and (min-width:768px){.tagline{left:25px}.social-links{right:25px}.dive-arrow{width:7.75vw;height:3.775vw}}
 @media(max-width:767px){
- .masthead{height:39.0625vw;border:0}.tagline,.social-links{display:none}.header-brand{left:50%;top:2.8125vw;width:88.125vw}.wordmark{font-size:15.625vw;line-height:1}.photo-co{position:absolute;top:20.625vw;left:50%;transform:translateX(-50%);width:60vw;font-size:3.4375vw;line-height:1;letter-spacing:1.375vw}
- .hero{height:125vw}.hero-photo{left:-17.8125%;width:135.9375%;height:110.5%}.hero h1{top:32.25%;width:38.4375%;font-size:11.25vw}.hero>p{top:42.5%;width:50.625%;font-size:3.4375vw;letter-spacing:.6875vw;white-space:nowrap}.dive-arrow{top:47.25%;width:13.4375%;height:5.5%}
- .canvas{width:100%}.social-spacer{height:6.25vw}
+ .masthead{height:39.0625vw;padding:0;border:0}.tagline,.social-links{display:none}.header-brand{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:58.5vw;margin:0}
+ .hero{height:125vw}.hero-photo{left:-17.8125%;width:135.9375%;height:110.5%}.hero h1{top:32.25%;width:38.4375%;font-size:11.25vw}.hero-copy>p{top:42.5%;width:50.625%;font-size:3.4375vw;letter-spacing:.6875vw;white-space:nowrap}.dive-arrow{top:47.25%;width:13.4375%;height:5.5%}
+ .canvas{width:100%}main{--contact-edge-space:6.25vw}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.element.image[href]{transition:none}}
-/* The section rule spans the viewport without making the page wider. */
-#saltybabe-contact{position:relative}
-#saltybabe-contact::before{content:'';position:absolute;inset:0 0 auto;height:1px;background:#c7c7c7}
-#saltybabe-contact-3{display:none}
-.site-nav{position:sticky;top:0;z-index:20;height:60px;background:#fff;border-bottom:1px solid #c7c7c7}
-.site-nav>div{max-width:960px;height:100%;margin:auto;padding:0 24px;display:flex;align-items:center;justify-content:center;gap:clamp(12px,calc(10vw - 24px),88px)}
-.site-nav a{display:flex;align-items:center;min-height:44px;font:11px/1.4 'Josefin Sans';letter-spacing:3.3px;text-transform:uppercase;white-space:nowrap}
+/* Match the contact panel's outer top space to the space before the photo banner. */
+#saltybabe-contact{position:relative;padding-top:var(--contact-edge-space)}
+#saltybabe-footer-1-2 img{object-fit:contain}
+/* Keep the shell artwork's original colors behind the footer content. */
+#saltybabe-footer-1{position:relative;isolation:isolate;background:#fff}
+#saltybabe-footer-1::before{content:'';position:absolute;inset:0;z-index:-1;background:url('./images/sbs-shell-pattern-wide.png') center/cover no-repeat;pointer-events:none}
+@media(max-width:767px){
+ #saltybabe-footer-1::before{background-image:url('./images/sbs-shell-pattern.jpg')}
+}
+/* Bring the print gallery 15px closer to its label while retaining all row gaps. */
+#print-shop-gallery-to-darkroom .element.image[href]{margin-top:-15px}
+/* Reduce the gap below the preset buttons without changing the print section's internal spacing. */
+#print-shop-gallery-to-darkroom{margin-top:-20px;margin-bottom:-15px}
+.site-nav{position:sticky;top:0;z-index:20;height:60px;background:#fff;border-bottom:1px solid #c7c7c7;box-shadow:inset 0 1px 0 #c7c7c7}
+.site-nav>div{width:70%;height:100%;margin-inline:auto;display:flex;align-items:center;justify-content:space-between}
+.site-nav a{display:flex;align-items:center;min-height:44px;font:600 13px/1.4 'Josefin Sans';letter-spacing:3.3px;text-transform:uppercase;white-space:nowrap}
 #preset-packages,#print-shop-gallery-to-darkroom{scroll-margin-top:60px}
 @media(max-width:767px){
  .site-nav{height:48px}
@@ -53,12 +66,9 @@
  .mobile-inquire{display:flex;align-items:center;gap:1.917808vw;min-height:40px;font:2.876712vw/1 'Josefin Sans';letter-spacing:.821918vw;text-transform:uppercase;white-space:nowrap}
  .mobile-inquire svg{width:4.109589vw;height:2.739726vw;fill:none;stroke:currentColor;stroke-width:1.8}
  .mobile-menu-links{position:absolute;left:0;right:0;top:100%;padding:16px 24px 20px;display:grid;gap:4px;background:#fff;border-bottom:1px solid #c7c7c7;box-shadow:0 10px 16px #0000000d}
- .mobile-menu-links a{display:flex;align-items:center;min-height:44px;font:13px/1.4 'Josefin Sans';letter-spacing:2px;text-transform:uppercase}
+ .mobile-menu-links a{display:flex;align-items:center;min-height:44px;font:600 13px/1.4 'Josefin Sans';letter-spacing:2px;text-transform:uppercase}
  .site-nav{display:none}
  .masthead{height:calc(39.863014vw + 16px)}
- .header-brand{top:50%;transform:translate(-50%,-50%)}
- .wordmark{font-size:15.9375vw}
- .photo-co{position:static;width:auto;transform:none;margin-top:4.9625vw;font-size:3.5625vw}
  /* The portrait composition keeps the published height and the side sharks. */
  .hero{height:130vw;--hero-photo-inset:4px}
  /* Reflect the water edge into the small inset so the photo stays seamless. */
@@ -66,7 +76,7 @@
  .hero-photo{left:0;top:var(--hero-photo-inset);width:100%;height:auto;object-fit:contain;transform:none}
  .hero-wave{display:block;position:absolute;top:110vw;left:-4px;width:calc(100% + 8px);height:auto;pointer-events:none}
  .hero h1{top:calc(22.5% + 41px);font-size:11.5vw}
- .hero>p{top:calc(32.9% + 41px)}
+ .hero-copy>p{top:calc(32.9% + 41px)}
  .dive-arrow{top:calc(38.1% + 41px);height:7.15vw}
  /* Clip the artwork's transparent padding, retaining its original type size. */
  #preset-packages-8,#print-shop-gallery-to-darkroom-3{overflow:clip}
@@ -82,10 +92,15 @@
 
 /* Desktop photograph and wave scale independently, preserving natural proportions. */
 @media(min-width:768px){
- .hero{height:min(66vw,1220px);max-width:2560px;margin-inline:auto;--desktop-title-top:28%;--desktop-title-size:min(6.6225vw,100px)}
- .hero-photo{left:0;top:0;width:100%;height:100%;object-fit:cover;object-position:center}
+ .hero{height:min(66vw,1220px);max-width:2560px;margin-inline:auto;--hero-photo-aspect:1.5987903226;--hero-subject-x:51.2%}
+ /* Cover the frame at 105% scale, then anchor the subject's center to the frame's center. */
+ .hero-photo{left:50%;top:50%;width:max(105%,calc(min(66vw,1220px) * var(--hero-photo-aspect) * 1.05));max-width:none;height:auto;object-fit:cover;object-position:center;transform:translate(calc(0% - var(--hero-subject-x)),-50%)}
  .hero-wave{display:block;position:absolute;top:78%;left:-1%;width:102%;height:44%;object-fit:fill;pointer-events:none}
- .hero h1{top:var(--desktop-title-top)}
- .hero>p{top:calc(var(--desktop-title-top) + var(--desktop-title-size) + 12px)}
- .dive-arrow{top:calc(var(--desktop-title-top) + var(--desktop-title-size) + min(3.245032vw,49px) + 28px)}
+ .hero-copy{position:absolute;top:calc(50% - 5px);left:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;width:100%;text-align:center}
+ .hero-copy h1,.hero-copy>p,.hero-copy .dive-arrow{position:static;top:auto;left:auto;transform:none}
+ .hero-copy>p{margin-top:12px}
+ .hero-copy .dive-arrow{margin-top:16px}
+}
+@media(min-width:2000px){
+ .hero{--hero-photo-aspect:2;--hero-subject-x:52.3%}
 }

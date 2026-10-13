@@ -1,0 +1,29 @@
+Salty Babe hero photo refinement — 2026-10-12
+Tool: built-in image_gen.imagegen (edit mode)
+
+STANDARD PHOTO
+Input: assets/images/hero-desktop-clear-water.png
+Output: assets/images/hero-desktop-centered-photo.png (1586 x 992)
+Use case: identity-preserve.
+Asset type: desktop/tablet website hero photograph, landscape 16:10.
+Input image: the attached image is the exact edit target, not a loose inspiration.
+Primary request: improve the photographic realism and clean detail of this existing underwater photograph, and center the woman horizontally in the frame.
+Keep this exact recognizable woman, her facial features, mask/snorkel, black long-sleeve swimsuit, necklace, bracelets, pose, bent legs, fins, and body proportions. Keep the same seven sharks and their surrounding arrangement, their believable anatomy, their scale relative to the woman, the deep blue ocean color, bubble placement, sunlight direction, and underwater depth.
+Composition: shift the entire existing scene slightly left so that the visual center of the woman's full silhouette is exactly at 50% of the canvas width. Her head, torso, and feet should read as a centered subject, with balanced water on either side. Keep the same vertical framing and subject size as the supplied photo; do NOT zoom in, because a precise 5% zoom will be done in the website. Fill any newly exposed right edge naturally with uninterrupted blue water.
+Refinement: retain a real underwater-camera look. Resolve skin pores, fine swimsuit fabric and seams, natural mask and snorkel edges, realistic shark skin, soft depth-appropriate distant detail, and coherent natural sunlight caustics. Remove waxy/painterly smearing and fake mottled textures without smoothing the woman into plastic. Clear blue open water must remain clean and naturally graded, without conspicuous invented particles or noisy speckles.
+Output: a high-resolution, crisp 3584 x 2240 landscape photograph or higher native detail at the same 16:10 aspect ratio.
+Constraints: no change of identity, no beauty retouching, no reshaping, no changed posture, no extra subjects or objects, no new equipment, no exaggerated light rays, no illustration/CGI look, no halo sharpening. No text, letters, logo, border, white wave, or website interface.
+
+WIDE PHOTO
+Inputs: assets/images/hero-desktop-wide-clear-water.png and the refined standard photo
+Output: assets/images/hero-desktop-wide-centered-photo.png (1774 x 887)
+Use case: identity-preserve.
+Asset type: extra-wide desktop website hero photograph, landscape 2:1.
+Input image 1 is the exact wide photo to edit. Input image 2 is the refined standard-width version of the SAME scene; match its clean photographic detail, natural water, and horizontal centering.
+Primary request: produce a high-resolution, photorealistic wide version of image 1 with the woman centered horizontally. Preserve the recognizable woman's identity, pose, black long-sleeve swimsuit, mask/snorkel, accessories, body proportions, bent legs and fins. Preserve all seven sharks, their arrangement, scale, and anatomy. Preserve the wide 2:1 composition, deep blue ocean, underwater lighting, headroom, and the person's vertical position and size from image 1.
+Move the entire scene slightly left until the midpoint of the woman's full silhouette is at exactly 50% of the width, seamlessly extending only the blue water at the right. Do not zoom, stretch, resize the person, crop fins, or change posture.
+Improve real-camera photographic detail, skin texture, coherent caustic sunlight on skin, swimsuit fabric/seams, mask edges and shark skin. Remove painterly smears, plastic surfaces, and artificial mottled texture. Water should look naturally clear with smooth depth falloff, preserving existing bubbles but adding no fields of invented noise.
+Render at 3840 x 1920 pixels or the highest native resolution supported, preserving 2:1.
+Constraints: no added elements, no change of identity or body, no reshaping, no exaggerated rays, no fantasy, no illustration/CGI finish, no oversharpening halos. No text, logo, white wave or UI.
+
+Requested dimensions in the prompts are aspirational; the actual delivered dimensions are recorded above. Files are saved without artificial upscaling.
