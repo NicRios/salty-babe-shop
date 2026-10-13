@@ -1,0 +1,68 @@
+/* Darkroom-inspired print details within the shared Salty Babe page layout. */
+.print-page{background:#f5f5f3;padding:48px 32px 56px;color:#1c1e23}
+.print-card{max-width:1200px;margin-inline:auto;border:1px solid #e6e6e1;background:#fff}
+.print-toolbar{padding:24px 32px 12px}
+.print-back{display:inline-flex;align-items:center;gap:9px;min-height:32px;font-size:13px;line-height:1.5;color:#565a54}
+.print-back span{font-size:22px;line-height:1}
+.print-layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr)}
+.print-artwork{min-width:0;padding:2px 36px 48px;text-align:center}
+.print-artwork h1{margin:0 0 22px;font:400 24px/1.3 'Josefin Sans',sans-serif}
+.print-preview{display:table;max-width:100%;margin:0 auto;box-shadow:0 3px 12px #1c1e2314;transition:padding .2s;background:#fff}
+.print-preview img{display:block;width:auto;max-width:100%;height:auto;max-height:680px;object-fit:contain}
+.print-preview.has-border{padding:24px}
+.print-options{min-width:0;border-left:1px solid #e6e6e1}
+.print-form{display:grid;gap:24px;margin:0;padding:10px 32px 32px}
+.print-field{display:grid;gap:10px;min-width:0}
+.print-field>label{font-size:15px;line-height:1.4;color:#565a54}
+.print-field select{width:100%;min-width:0;min-height:46px;border:1px solid #cccfc8;border-radius:3px;background:#fff;padding:10px 30px 10px 12px;color:#1c1e23;font:400 15px/1.3 'Josefin Sans',sans-serif}
+.print-field select:focus-visible,.print-details summary:focus-visible{outline:2px solid #52645c;outline-offset:4px}
+.print-size-row{display:flex;align-items:stretch;gap:14px}
+.print-size-row>select{flex:1}
+.print-units{display:flex;flex:none;position:relative;min-width:0;margin:0;padding:0;border:0}
+.print-units input{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.print-units label{display:grid;place-items:center;width:42px;min-height:46px;border:1px solid #cccfc8;background:#fff;color:#565a54;font-size:15px;cursor:pointer}
+.print-units label:first-of-type{border-radius:3px 0 0 3px}
+.print-units label:last-of-type{border-left:0;border-radius:0 3px 3px 0}
+.print-units input:checked+label{background:#909683;border-color:#909683;color:#fff}
+.print-units input:focus-visible+label{position:relative;outline:2px solid #52645c;outline-offset:3px;z-index:1}
+.print-add.element{position:static;display:flex;flex-wrap:wrap;gap:8px 20px;width:100%;min-height:54px;margin-top:6px;padding:12px 10px;cursor:pointer;font-size:14px}
+.print-add.element .button-label{white-space:normal}
+.print-price{white-space:nowrap;letter-spacing:.05em}
+.print-add:disabled{cursor:default;opacity:.65}
+.print-add:hover:not(:disabled){background:#7d846f;border-color:#7d846f}
+.print-status{margin:0;padding:16px;background:#f4f3ed;font-size:14px;line-height:1.6;color:#41483d}
+.print-status:focus{outline:2px solid #909683;outline-offset:4px}
+.print-details details{padding:0 32px;border-top:1px solid #e6e6e1;font-size:14px;line-height:1.55;color:#565a54}
+.print-details summary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:58px;padding:16px 0;cursor:pointer;list-style:none}
+.print-details summary::-webkit-details-marker{display:none}
+.print-details summary::after{content:'+';flex:none;font:20px/1 Arial,sans-serif}
+.print-details details[open] summary::after{content:'−'}
+.print-details p{margin:0 0 18px}
+.print-details ul{margin:0 0 22px;padding-left:18px}
+.print-details li+li{margin-top:3px}
+.print-sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+@media(min-width:768px) and (max-width:1024px){
+ .print-page{padding:32px 20px 40px}
+ .print-layout{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+ .print-artwork{padding-inline:24px}
+ .print-form{padding-inline:24px}
+ .print-details details{padding-inline:24px}
+ .print-size-row{gap:8px}
+ .print-units label{width:38px}
+}
+@media(max-width:767px){
+ .print-page{padding:20px 16px 32px}
+ .print-toolbar{padding:12px 20px}
+ .print-layout{grid-template-columns:1fr}
+ .print-artwork{padding:4px 20px 28px}
+ .print-artwork h1{font-size:22px;margin-bottom:20px}
+ .print-preview img{max-height:560px}
+ .print-preview.has-border{padding:18px}
+ .print-options{border-left:0}
+ .print-form{padding:0 20px 28px;gap:22px}
+ .print-field select{font-size:16px;min-height:48px}
+ .print-units label{min-height:48px}
+ .print-add.element{font-size:14px;min-height:54px}
+ .print-details details{padding-inline:20px}
+}
+@media(prefers-reduced-motion:reduce){.print-preview{transition:none}}

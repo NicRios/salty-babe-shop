@@ -100,13 +100,14 @@ def render_header(on_inner_page=False):
 def render_page(title, description, main_content, page_type='home'):
     page_styles = ''
     page_script = ''
-    stylesheet = {'product': 'products.css', 'contact': 'contact.css'}.get(page_type)
+    stylesheet = {'product': 'products.css', 'contact': 'contact.css', 'print': 'prints.css'}.get(page_type)
     if stylesheet:
         version = sha256((ROOT / 'assets' / stylesheet).read_bytes()).hexdigest()[:12]
         page_styles = f'<link rel="stylesheet" href="assets/{stylesheet}?v={version}">\n'
-    if page_type == 'contact':
-        version = sha256((ROOT / 'assets/contact.js').read_bytes()).hexdigest()[:12]
-        page_script = f'<script src="assets/contact.js?v={version}" defer></script>\n'
+    script = {'contact': 'contact.js', 'print': 'prints.js'}.get(page_type)
+    if script:
+        version = sha256((ROOT / 'assets' / script).read_bytes()).hexdigest()[:12]
+        page_script = f'<script src="assets/{script}?v={version}" defer></script>\n'
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -213,5 +214,44 @@ contact_content = f'''<section class="contact-page" aria-labelledby="contact-tit
 </section>'''
 (ROOT / 'contact.html').write_text(render_page('Inquire | Salty Babe', 'Inquire about your date and share your photography plans with Salty Babe.', contact_content, page_type='contact'))
 
+print_catalog = json.loads((ROOT / 'content/prints.json').read_text())
+specifications = ''.join(f'<li>{esc(item)}</li>' for item in print_catalog['specifications'])
+for art in print_catalog['prints']:
+    size_options = []
+    for size in art['sizes']:
+        width, height = (int(value) for value in size.split('x'))
+        inches = f'{width} × {height}'
+        centimeters = f'{width * 2.54:.2f} × {height * 2.54:.2f}'
+        size_options.append(f'<option value="{size}" data-inches="{inches}" data-centimeters="{centimeters}" data-price="{print_catalog["prices"][size]}">{inches}</option>')
+    first_price = print_catalog['prices'][art['sizes'][0]]
+    description = art['description'] or f'{art["title"]} — a photographic print by Kerstin Jenkins.'
+    print_content = f'''<section class="print-page" aria-labelledby="print-title">
+<div class="print-card">
+<div class="print-toolbar"><a class="print-back" href="./#print-shop-gallery-to-darkroom"><span aria-hidden="true">←</span> Back to Gallery</a></div>
+<div class="print-layout">
+<div class="print-artwork">
+<h1 id="print-title">{esc(art['title'])}</h1>
+<figure class="print-preview" id="print-preview"><img src="{esc(art['src'])}" alt="{esc(art['title'])} by Kerstin Jenkins" id="print-photo" decoding="async" fetchpriority="high"></figure>
+</div>
+<div class="print-options">
+<form class="print-form" id="print-form" aria-label="Customize your print">
+<div class="print-field"><label for="print-material">Material</label><select id="print-material" name="material"><option>{esc(print_catalog['material'])}</option></select></div>
+<div class="print-field"><label for="print-size">Size (<span id="print-unit-label">inches</span>)</label><div class="print-size-row"><select id="print-size" name="size">{''.join(size_options)}</select><fieldset class="print-units"><legend class="print-sr-only">Size units</legend><input type="radio" name="units" id="print-inches" value="inches" checked><label for="print-inches">in</label><input type="radio" name="units" id="print-centimeters" value="centimeters"><label for="print-centimeters">cm</label></fieldset></div></div>
+<div class="print-field"><label for="print-border">Border</label><select id="print-border" name="border"><option value="none">No Border</option><option value="white">White Border</option></select></div>
+<button class="element button print-add" type="submit" disabled><span class="button-label">Add to Cart</span><span class="print-price" id="print-price" aria-live="polite">USD ${first_price}</span></button>
+<p class="print-status" id="print-status" role="status" tabindex="-1" hidden></p>
+<noscript><p class="print-status">Enable JavaScript to preview print options. This prototype does not place orders.</p></noscript>
+</form>
+<div class="print-details">
+<details open><summary>Description</summary><p>{esc(description)}</p></details>
+<details open><summary>Specifications</summary><ul>{specifications}</ul></details>
+<details><summary>Delivery &amp; Returns</summary><p>Professional paper prints are typically produced in 1–2 business days, then shipped. Tracking is emailed when the order ships. Prints are made to order and cannot be returned.</p><p>This is a shopping preview. No payment is collected and no order is placed.</p></details>
+</div>
+</div>
+</div>
+</div>
+</section>'''
+    (ROOT / f'print-{art["id"]}.html').write_text(render_page(art['title'] + ' | Salty Babe Prints', description, print_content, page_type='print'))
+
 (ROOT/'assets/layout.css').write_text(layout)
-print(f'Built the shop, {len(products)} product pages, contact page, and shared layout.css.')
+print(f'Built the shop, {len(products)} preset pages, {len(print_catalog["prints"])} print pages, contact page, and shared layout.css.')

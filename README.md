@@ -17,6 +17,8 @@ Product copy and comparison photographs are configured in `content/products.json
 
 The contact page is `contact.html`, with editable headings, fields, options, and business details in `content/contact.json`. It uses the shared masthead, navigation, six-photo strip, and footer. `assets/contact.css` retains the reference form typography with a locally bundled Cormorant Garamond font (license alongside the asset). `assets/contact.js` enables native required-field and email validation, then shows a clear preview confirmation; it never sends, stores, or clears entered inquiries. The button stays disabled without JavaScript. There is no HoneyBook embed, SMS consent copy, or reCAPTCHA in this prototype. All Inquire and Contact Me links use this local page.
 
+Each of the 37 print-shop photographs opens its own local `print-<id>.html` page, generated from one shared template. The clicked photograph and title are present in the HTML, so direct links, refreshes, and browsing without JavaScript retain the correct selection. `content/prints.json` records the original Darkroom titles, descriptions, available sizes, source links, and reference prices captured October 12, 2026. Images reuse the exact local gallery assets. The two-column print layout is in `assets/prints.css`, with a stacked layout on mobile, and uses the shared navigation, six-photo strip, and footer. `assets/prints.js` updates the price, inch/centimeter labels, and white-border preview. Add to Cart only displays a preview confirmation; it does not store a cart, collect payment, contact Darkroom, or place an order. This is separate from the preset pages' existing external checkout links.
+
 The masthead and footer use the supplied transparent `salty babe logo (1).png`, copied unchanged to `assets/images/salty-babe-logo.png` (1158 × 555). The lettering and subtitle are one image, preserving the approved spacing and natural aspect ratio. In the desktop footer, the logo and photographer tagline are centered together between the photo and menu panels; the earlier starfish is removed.
 
 The footer background uses the accepted seashell brand artwork from the portfolio case study, copied unchanged into `assets/images/`: `sbs-shell-pattern-wide.png` for desktop/tablet and the supplied portrait `sbs-shell-pattern.jpg` for mobile. The artwork appears at its original opacity, without a transparency adjustment.
@@ -33,7 +35,7 @@ Run `python3 scripts/check.py` to verify local resource paths. For visual change
 
 ## Publishing
 
-Changes use a feature branch and pull request. After merge to `main`, `.github/workflows/pages.yml` deploys `index.html`, both product HTML files, `contact.html`, and `assets/` to GitHub Pages. The content model, reference captures, and project scripts are not included in the deployed pages.
+Changes use a feature branch and pull request. After merge to `main`, `.github/workflows/pages.yml` deploys `index.html`, both preset product HTML files, `contact.html`, the `print-*.html` pages, and `assets/` to GitHub Pages. The content model, reference captures, and project scripts are not included in the deployed pages.
 
 ## Reference provenance
 
