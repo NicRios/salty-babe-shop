@@ -91,7 +91,7 @@ def render_header(on_inner_page=False):
 </nav>
 <header class="masthead">
 <p class="tagline">underwater<br>photographer</p>
-<a class="header-brand" href="./"><img class="brand-logo" src="assets/images/salty-babe-logo.png" alt="Salty Babe photo co. — Home" width="1158" height="555" decoding="async"></a>
+<a class="header-brand" href="./" aria-label="Salty Babe photo co. — Home"><span class="wordmark">SALTY BABE</span><span class="photo-co">PHOTO CO</span></a>
 <div class="social-links">{social}</div>
 </header>
 <nav class="site-nav" aria-label="Main navigation"><div>{nav}</div></nav>

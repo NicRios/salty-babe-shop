@@ -1545,12 +1545,12 @@
         {
           "id": "saltybabe-footer-1-2",
           "href": "https://availethphoto.com/",
-          "text": "",
+          "text": "SALTY BABE",
           "desktop": {
-            "x": 453.5,
-            "y": 85.51424870466322,
-            "width": 315,
-            "height": 150.97150259067357,
+            "x": 409.5,
+            "y": 110.7,
+            "width": 403,
+            "height": 70,
             "font": "70px / 70px \"Noir Et Blanc\"",
             "letterSpacing": "normal",
             "textAlign": "center",
@@ -1558,19 +1558,45 @@
             "color": "rgb(0, 0, 0)"
           },
           "mobile": {
-            "x": 37.5,
-            "y": 28,
-            "width": 315,
-            "height": 150.97150259067357,
+            "x": 23.15625,
+            "y": 78,
+            "width": 343.6875,
+            "height": 49.96875,
             "font": "50px / 50px \"Noir Et Blanc\"",
             "letterSpacing": "normal",
             "textAlign": "center",
             "textTransform": "none",
             "color": "rgb(0, 0, 0)"
           },
-          "kind": "image",
-          "src": "assets/images/salty-babe-logo.png",
-          "alt": "Salty Babe photo co."
+          "kind": "text"
+        },
+        {
+          "id": "saltybabe-footer-1-4",
+          "href": null,
+          "text": "PHOTO CO",
+          "desktop": {
+            "x": 488,
+            "y": 188.7,
+            "width": 246,
+            "height": 15.6,
+            "font": "600 13px / 15.6px \"Josefin Sans\"",
+            "letterSpacing": "5.2px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "mobile": {
+            "x": 88.96875,
+            "y": 151.125,
+            "width": 212.0625,
+            "height": 18.28125,
+            "font": "600 11px / 11px \"Josefin Sans\"",
+            "letterSpacing": "4.4px",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "color": "rgb(0, 0, 0)"
+          },
+          "kind": "text"
         },
         {
           "id": "saltybabe-footer-1-3",
@@ -1578,7 +1604,7 @@
           "text": "underwater photographer",
           "desktop": {
             "x": 449.5,
-            "y": 252.4857512953368,
+            "y": 226.3,
             "width": 323,
             "height": 32,
             "font": "20px / 24px \"Noir Et Blanc Italic\"",
