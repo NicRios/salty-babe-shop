@@ -136,7 +136,7 @@ def render_page(title, description, main_content, page_type='home'):
 home_content = f'''<section class="hero" aria-label="Shop and collection">
 <picture>
 <source media="(min-width:2000px)" srcset="assets/images/hero-desktop-wide-centered-photo.png">
-<source media="(max-width:767px)" srcset="assets/images/hero-mobile-portrait-headroom.png">
+<source media="(max-width:767px)" srcset="assets/images/hero-mobile-natural-light.png">
 <img class="hero-photo" src="assets/images/hero-desktop-centered-photo.png" alt="Snorkeler swimming with sharks in clear blue ocean water" fetchpriority="high">
 </picture>
 <img class="hero-wave" src="assets/images/hero-mobile-wave.png" alt="" aria-hidden="true">

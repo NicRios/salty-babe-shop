@@ -1,0 +1,33 @@
+Salty Babe mobile hero refinement — 2026-10-14
+Tool: built-in image_gen.imagegen (edit mode)
+Use: mobile hero only, through the existing 767px breakpoint.
+Source composition: assets/images/hero-mobile-portrait-headroom.png
+Lighting reference: assets/images/hero-desktop-centered-photo.png
+Final asset: assets/images/hero-mobile-natural-light.png (1100 × 1430)
+Saved from the tool output without resizing, artificial upscaling or further image editing.
+
+PASS 1 — MOBILE LIGHTING AND WATER
+Use case: lighting-weather with identity preservation.
+Asset type: high-quality photorealistic mobile website hero background, portrait 10:13 composition.
+Input image 1 is the exact MOBILE EDIT TARGET: hero-mobile-portrait-headroom.png. Input image 2 is the DESKTOP LIGHTING REFERENCE: hero-desktop-centered-photo.png, showing the same woman and underwater scene.
+Primary request: refine the mobile photograph so it looks like a real professional underwater camera photograph, matching the deeper, quieter blue water and controlled natural exposure of the desktop reference.
+
+Preserve the mobile image's exact portrait composition, woman, recognizable face, hairstyle, goggles, snorkel, black long-sleeve swimsuit, jewelry, body proportions, bent-leg pose, hand anatomy, fins, subject scale, full silhouette and headroom. Preserve the existing six sharks and their positions, natural anatomy, and swimming directions. The portrait framing and full-height layout must remain compatible with the existing mobile hero.
+
+Lighting: match image 2's natural directional underwater illumination, deeper blue background, controlled skin highlights, and rich but realistic exposure. Eliminate the conspicuous diagonal spotlight-like rays from the mobile image. Use soft broad ambient daylight filtered through deep open water; no glowing shafts, blown highlights, HDR sheen or electric-blue saturation. Keep natural skin texture, fabric detail and subtle physically coherent caustics, without crunchy sharpening, artificial mottling, beauty retouching, waxiness or plastic surfaces.
+
+Water and bubbles: remove the dense artificial web-like curtain of bubbles and sparkling flecks along the left side. Replace it with smooth natural blue water and subtle depth gradation. Retain only a few small irregular plausible air bubbles near the woman's mask and shoulder, with real optical highlights and upward buoyancy. No repeating dots, mesh patterns, dense bubble trails, glitter, fake particles, or foam.
+
+Depth: the upper-left and upper-right sharks, cropped mid-left shark, and mid-right shark are farther away. Make them visibly more muted, softer, lower contrast and blue-tinted from water attenuation, with less visible surface detail than the foreground sharks. They should still be recognizable but naturally recede into the water. The two larger lower sharks remain closer, with believable skin, anatomy and moderate fine detail; do not make them metallic, glossy, cut-out or as sharp as a studio photograph. Match all elements to one coherent underwater photograph.
+
+Output: only the edited background photograph, high native quality and detail, preserve portrait 10:13 aspect ratio, preferably at least the original 1100 x 1430 resolution. No text, logo, title, border, UI, arrow, or white wave. Do not add subjects, objects, gear, light beams or additional sharks. Photographic realism is the highest priority.
+
+PASS 2 — DISTANCE AND BUBBLE REALISM
+Use case: precise-object-edit, natural underwater depth refinement.
+Input image is the edited mobile hero photograph. Preserve its exact portrait dimensions, framing, subject scale, woman's identity, face, pose, body proportions, clothing, gear, fins, clean deep-blue water and already corrected soft lighting.
+
+Make a narrowly targeted finishing pass for photographic realism:
+1. The FOUR farther sharks (upper left, upper right, partially cropped middle left, and middle right) must visibly recede into the water. Reduce their contrast and fine surface detail considerably, blend their color toward the surrounding deep blue, and soften their edges naturally according to distance, as an underwater camera would really record them. They must remain recognizable silhouettes, not disappear; do not give every shark the same sharpness or visibility. The two closer bottom sharks stay more visible and detailed, with natural matte grey skin. Maintain exact shark positions, sizes, count, anatomy and swimming directions.
+2. Remove the residual unnatural chrome-looking splashes and web of little bright flecks covering the woman's right shoulder, sleeve and chest. Preserve the black swimsuit and its fabric. Keep just a sparse handful of small optically realistic air bubbles near the snorkel and shoulder, irregularly sized and positioned, rising naturally. No glitter, particle wallpaper or dense bubble cloud.
+
+Keep the rest of the image unchanged. Do not relight, brighten or oversaturate. Retain restrained natural skin detail, no waxy or illustrated smoothing. The finished picture must read as a high-quality underwater photograph, not a CGI composite. No text, logos, arrows, white wave, UI, borders or additional objects.
